@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 NOV 2014 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 NOV 2014 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,28 +342,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3] [4 <./set-up.pdf> <./fresnel_diagram.png>]
 No file Photon_Interference.bbl.
-[5] (./Photon_Interference.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+[5] (./Photon_Interference.aux) ) 
 Here is how much of TeX's memory you used:
- 4292 strings out of 493117
- 57244 string characters out of 6135433
+ 4291 strings out of 493117
+ 57233 string characters out of 6135433
  133115 words of memory out of 5000000
- 7696 multiletter control sequences out of 15000+600000
+ 7695 multiletter control sequences out of 15000+600000
  11844 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,30p,1421b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Photon_Interference.pdf (5 pages, 286491 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti12.pfb>
+Output written on Photon_Interference.pdf (5 pages, 286536 bytes).
 PDF statistics:
  219 PDF objects out of 1000 (max. 8388607)
  122 compressed objects within 2 object streams
