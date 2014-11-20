@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 NOV 2014 15:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 NOV 2014 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -320,49 +320,51 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-
-<set-up.pdf, id=16, 793.99933pt x 269.84413pt>
+ [3]
+<set-up.pdf, id=19, 793.99933pt x 269.84413pt>
 File: set-up.pdf Graphic file (type pdf)
  <use set-up.pdf>
-Package pdftex.def Info: set-up.pdf used on input line 61.
+Package pdftex.def Info: set-up.pdf used on input line 67.
 (pdftex.def)             Requested size: 433.62pt x 147.36888pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<fresnel_diagram.png, id=17, 312.41719pt x 205.5178pt>
+ [4 <./set-up.pdf>] <fresnel_diagram.png, id=193, 312.41719pt x 205.5178pt>
 File: fresnel_diagram.png Graphic file (type png)
 
 <use fresnel_diagram.png>
-Package pdftex.def Info: fresnel_diagram.png used on input line 78.
+Package pdftex.def Info: fresnel_diagram.png used on input line 113.
 (pdftex.def)             Requested size: 433.62pt x 285.25497pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] [4 <./set-up.pdf> <./fresnel_diagram.png>]
 No file Photon_Interference.bbl.
-[5] (./Photon_Interference.aux) ) 
+[5] [6 <./fresnel_diagram.png>] (./Photon_Interference.aux) ) 
 Here is how much of TeX's memory you used:
- 4291 strings out of 493117
- 57233 string characters out of 6135433
- 133115 words of memory out of 5000000
- 7695 multiletter control sequences out of 15000+600000
+ 4293 strings out of 493117
+ 57271 string characters out of 6135433
+ 135115 words of memory out of 5000000
+ 7697 multiletter control sequences out of 15000+600000
  11844 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,30p,1421b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti12.pfb>
-Output written on Photon_Interference.pdf (5 pages, 286536 bytes).
+ 38i,7n,30p,1421b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Photon_Interference.pdf (6 pages, 352257 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 250 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

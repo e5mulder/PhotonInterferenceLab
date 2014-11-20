@@ -46,7 +46,13 @@ The revolutionary discovery of the dual wave-particle nature of light has been o
 
 However, support for the particle nature of light made a comeback in the early 20th century.  Perhaps the most famous example of this is Einstein's Nobel Prize winning explanation of the photoelectric effect, whose effects absolutely contradicted all predictions from the wave theory of light.  Einstein demonstrated that quanta of light, now called photons, strike the surface of a metal plate and excite electrons to freedom (Cite our modern physics book).  The advent of quantum mechanics- a field based largely off the quantized nature of electromagnetic energy, further explored the particle-like properties of light.  A further example of this is Compton Scattering- a effect where a photon elastically collides with an electron and experiences a shift in wavelength.  
 
-We know now that we can treat light as a particle- photons scatter and collide with matter.  We can also treat it as a wave- light beams constructively and deconstructively interfere with each other.  But, particularly as relatively new physics students, can we call this an acceptable definition of light?  Can we say that we understand light?  The best way to test our understanding and perhaps obfuscate things a little bit is to undertake the Single Photon Interference Experiment.  We will take the same general set up as for the Young Double Slit Experiment:  beam of light, double slit, and means of viewing the output (see Methods section for a detailed description).  However, this time, we will reduce the intensity of light that we can be sure, to within a certain probability, that there is only a single photon in flight through the d
+We know now that we can treat light as a particle- photons scatter and collide with matter.  We can also treat it as a wave- light beams constructively and deconstructively interfere with each other.  But, particularly as relatively new physics students, can we call this an acceptable definition of light?  Can we say that we understand light?  The best way to test our understanding and perhaps obfuscate things a little bit is to undertake the Single Photon Interference Experiment.  We will take the same general set up as for the Young Double Slit Experiment:  beam of light, double slit, and means of viewing the output (see Methods section for a detailed description).  However, this time, we will reduce the intensity of light that we can be sure, to within a certain probability, that there is only a single photon in flight through the double slit apparatus at a certain time.
+
+Even recalling the dual nature of light, we still want to insist that there should only be two bright streaks, parallel to the two slits.  We think, incorrectly, that each single photon must 'choose' a slit to pass through, and that is that!  There are no other photons going though the slits and we think that there should be no interference.  
+
+The result of the single photon experiment is, to perhaps our surprise, an interference pattern, just like the one from Young's Experiment!  It seems like the photon 'went through two slits at once', or that it 'interfered with itself'.  The only lawful explanation we can provide at the moment is 'light is more complicated than we thought'.  
+
+In this paper, we perform the Single Photon Experiment and examine the output double slit interference pattern produced by single photon interference.  We fit our output to two different models:  the Fraunhofer model and the Fresnel model, which draw upon different approaches to model the behavior of light.  The Fraunhofer model makes use of the picture of light as a plane wave reaching the two slits and propagating through it as a wave.  The Fresnel model considers the phase variation of an electromagnetic field with position in that field.  The Fresnel model is a sum over multiple paths from one location to another (here, from the source to the detector).  We discuss these models and our found fits in our analysis section.
 
 
 \section{Methods}
@@ -69,9 +75,38 @@ Behind the detector slit was a photomultiplier tube (PMT).  A PMT generates an e
 
 \section{Results}
 
+After performing the measurements as discussed in the methods section, we fit two models to the data.  We calculated fits for both the Fraunhofer Model and the Fresnel Model.  
+\subsection{The Fraunhofer Model}
 
+\begin{equation}
+I_{double}= I_{0}(\frac{\sin(\frac{\pi a}{\lambda}\sin(\frac{x-x_{0}}{D_{2}}))}{\frac{\pi a}{\lambda}\sin(\frac{x-x_{0}}{D_{2}})})^{2} \times \cos(\frac{\pi d}{\lambda}\sin(\frac{x-x_{0}}{D_{2}}))^{2}
+\end{equation}
+
+\begin{equation}
+I_{near}= \frac{I_{0}}{4}(\frac{\sin(\frac{\pi a}{\lambda}\sin(\frac{x-x_{2}}{D_{2}}))}{\frac{\pi a}{\lambda}\sin(\frac{x-x_{2}}{D_{2}})})^{2} 
+\end{equation}
+
+\begin{equation}
+I_{near}=I_{0}*33.3*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{x_{0}+\frac{d}{2}}-a^{x_{0}-\frac{d}{2}} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
+\end{equation}
+
+\subsection{The Fresnel Model}
+
+\begin{equation}
+I_{far}= \frac{I_{0}}{4}(\frac{\sin(\frac{\pi a}{\lambda}\sin(\frac{x-x_{1}}{D_{2}}))}{\frac{\pi a}{\lambda}\sin(\frac{x-x_{1}}{D_{2}})})^{2} 
+\end{equation}
+
+\begin{equation}
+I_{far}=I_{0}*33.3*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{x_{0}-\frac{d}{2}}^{x_{0}+\frac{d}{2}+a} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
+\end{equation}
+
+\begin{equation}
+I_{double}=I_{near}+I_{far}
+\end{equation}
 
 \section{Analysis}
+
+Below, we discuss the two models and our fits, as well as the goodness of these fits and their implications for this experiment and the theory of light.
 
 \begin{figure}[h!]
 \centering
