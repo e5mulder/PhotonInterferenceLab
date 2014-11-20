@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[    454708,       9485]
-NotebookOptionsPosition[    453342,       9436]
-NotebookOutlinePosition[    453697,       9452]
-CellTagsIndexPosition[    453654,       9449]
+NotebookDataLength[    454633,       9480]
+NotebookOptionsPosition[    453308,       9433]
+NotebookOutlinePosition[    453665,       9449]
+CellTagsIndexPosition[    453622,       9446]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -9248,8 +9248,6 @@ ButtonData:>\\\"paclet:ref/message/General/itform\\\", ButtonNote -> \
   3.625336664443735*^9}]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Table", "[", 
   RowBox[{
@@ -9432,10 +9430,9 @@ Cell[BoxData[
   "}"}]], "Output",
  CellChangeTimes->{{3.625336847830308*^9, 3.625336886611018*^9}, 
    3.6253369245724487`*^9}]
-}, Open  ]]
 },
 WindowSize->{1098, 903},
-WindowMargins->{{73, Automatic}, {18, Automatic}},
+WindowMargins->{{Automatic, 199}, {-43, Automatic}},
 FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (June 27, \
 2014)",
 StyleDefinitions->"Default.nb"
@@ -9476,10 +9473,8 @@ Cell[CellGroupData[{
 Cell[444688, 9221, 536, 12, 28, "Input"],
 Cell[445227, 9235, 590, 12, 40, "Message"]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[445854, 9252, 470, 12, 49, InheritFromParent],
-Cell[446327, 9266, 6999, 167, 291, "Output"]
-}, Open  ]]
+Cell[445832, 9250, 470, 12, 49, "Input"],
+Cell[446305, 9264, 6999, 167, 233, "Output"]
 }
 ]
 *)
