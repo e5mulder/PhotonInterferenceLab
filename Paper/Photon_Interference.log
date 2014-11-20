@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 NOV 2014 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 NOV 2014 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,41 +319,54 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<set-up.pdf, id=11, 793.99933pt x 269.84413pt>
+) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+<set-up.pdf, id=16, 793.99933pt x 269.84413pt>
 File: set-up.pdf Graphic file (type pdf)
  <use set-up.pdf>
-Package pdftex.def Info: set-up.pdf used on input line 57.
+Package pdftex.def Info: set-up.pdf used on input line 61.
 (pdftex.def)             Requested size: 433.62pt x 147.36888pt.
 
-<fresnel_diagram.png, id=12, 312.41719pt x 205.5178pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fresnel_diagram.png, id=17, 312.41719pt x 205.5178pt>
 File: fresnel_diagram.png Graphic file (type png)
 
 <use fresnel_diagram.png>
-Package pdftex.def Info: fresnel_diagram.png used on input line 74.
+Package pdftex.def Info: fresnel_diagram.png used on input line 78.
 (pdftex.def)             Requested size: 433.62pt x 285.25497pt.
- [2 <./set-up.pdf>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3] [4 <./set-up.pdf> <./fresnel_diagram.png>]
 No file Photon_Interference.bbl.
-[3 <./fresnel_diagram.png>] (./Photon_Interference.aux) ) 
+[5] (./Photon_Interference.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
 Here is how much of TeX's memory you used:
- 4283 strings out of 493117
- 57129 string characters out of 6135433
- 131085 words of memory out of 5000000
- 7687 multiletter control sequences out of 15000+600000
+ 4292 strings out of 493117
+ 57244 string characters out of 6135433
+ 133115 words of memory out of 5000000
+ 7696 multiletter control sequences out of 15000+600000
  11844 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,30p,1421b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Photon_Interference.pdf (3 pages, 271706 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Photon_Interference.pdf (5 pages, 286491 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 219 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
