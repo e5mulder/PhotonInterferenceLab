@@ -67,13 +67,13 @@ To collect data, we moved the detector slit in increments of 0.1mm across the wi
 \begin{figure}[h!]
 \centering
 \includegraphics[width=6in]{set-up.pdf}
-\caption{Teach-Spin apparatus to measure quantum interference: a 1m-long black box containing an adjustable light source (450nm), columnating single slit, double slit, slit blocker, detector slit, and photomultiplier tube (PMT) detector. We sent the PMT output to a pulse-counter interval timer (PCIT), and from there to the computer.}
+\caption{Teach-Spin apparatus to measure quantum interference: a 1m-long black box containing an adjustable light source (about 550nm), columnating single slit, double slit, slit blocker, detector slit, and photomultiplier tube (PMT) detector. We sent the PMT output to a pulse-counter interval timer (PCIT), and from there to the computer.}
 \label{set-up}
 \end{figure}
 
 \section{Results}
 
-The main result of our experiment was that we did indeed see single slit and double slit interference patterns, as we expected.  We then we fit two models to the data, to quantitatively verify our observation and agreement with theory.  The following plots show the detected light intensity (measured by the number of photon counts per second) at sequential micrometer settings (which give the position of the detector slit). The red data points are our raw data, showing the scatter across three runs, as well as the general trend. The larger, blue data points are the average values with error bars (the mean and standard deviation of the values from the three runs) for each value of position.  
+The main result of our experiment was that we did indeed see single slit and double slit interference patterns, as we expected.  We then we fit two models to the data, to quantitatively verify our observation and agreement with theory.  Figures ~\ref{double_slit_plot} and ~\ref{single_slits_plot} show the detected light intensity (measured by the number of photon counts per second) at sequential micrometer settings (which give the position of the detector slit). The red data points are our raw data, showing the scatter across three runs, as well as the general trend. The larger, blue data points are the average values with error bars (the mean and standard deviation of the values from the three runs) for each value of position.  Our data has the form of single and double slit diffraction patterns, qualitatively.  In the analysis section we compare our data to two theoretical models. 
 
 \begin{figure}[h!]
 \centering
@@ -122,7 +122,7 @@ I_{near}= \frac{I_{0}}{4}(\frac{\sin(\frac{\pi a}{\lambda}\sin(\frac{x-x_{2}}{D_
 
 Where $I_0$ is the amplitude of the central maximum, $a$ is the width of the slits, $x_0$ is the location of the central maximum in the double-slit pattern, $x_1$ is the location of the central max in the far single-slit pattern, $x_2$ is the location of the central max in the near single-slit pattern, $D_2$ is the distance between the slit and the detector, $\lambda$ is the wavelength of the light, $x$ is the position of the detector slit, and $c$ is a vertical offset. 
 
-We fit our data to the Fraunhofer model by plotting our entire data set against the model, using the manufacturer's values for the slit widths, slit separation, and light wavelength, and our observed maximum intensity.  We then modified these values to try and get a better fit of the function to the data.  As the manufacturer did not give error for most of their parameters, we had to guess at the limits within which we could vary the parameter values.  However, we obtained a good fit for the double slit pattern (with the exception of the very edges), and decent fits for the single slit patterns.  Our single slit data was slightly off because we had not centered the columnated light exactly on the two slits, so one slit had approximately $10\%$ more illumination than the other.  As the fit assumed equal illumination from both slits, the amplitudes did not match.  
+We fit our data to the Fraunhofer model by plotting our entire data set against the model, using the manufacturer's values for the slit widths, slit separation, and light wavelength, and our observed maximum intensity and central maximum locations.  We then modified these values to try and get a better fit of the function to the data.  As the manufacturer did not give error for most of their parameters, we had to guess at the limits within which we could vary the parameter values.  However, we obtained a good fit for the double slit pattern (with the exception of the very edges), and decent fits for the single slit patterns.  Our single slit data was slightly off because we had not centered the columnated light exactly on the two slits, so one slit had approximately $10\%$ more illumination than the other.  As the fit assumed equal illumination from both slits, the amplitudes did not match.  
 
 \begin{figure}[h!]
 \centering
@@ -167,7 +167,7 @@ Distance from diffracting slits to detector slit $D_2$     & 500 mm
 
 \subsection{The Fresnel Model}
 
-The Fresnel model does not use the approximation from the Fraunhofer model, since the detector plane is assumed to be in the "near field," closer to the slits. Therefore the equation is left in it's complex exponential form, and the distances between the slits and between slit and detector become very important.  ~\cite{wolfram} This equation is very difficult to solve, but a computing program such as Mathematica can run the calculation in five or ten minutes.  
+The Fresnel model does not use the approximation from the Fraunhofer model, since the detector plane is assumed to be in the "near field," closer to the slits. Therefore the equation is left in it's complex exponential form, and the distances between the slits and between slit and detector become very important.  ~\cite{wolfram} This equation is very difficult to solve, but a computing program such as Mathematica can run the calculation.  
 
 The single slit cases:
 
@@ -184,7 +184,7 @@ The double slit case is simply the sum of the waveforms generated by each slit:
 I_{double}=I_{near}+I_{far}
 \end{equation}
 
-The parameters have the same meanings as in the Fraunhofer model, with the addition of $D_1$, the distance from the columnating slit to the single/double slit, and with the exception of $x$, $y$, and $z$: $x$ is the location of the columnating slit, $y$ is the location of the diffracting slit, and $z$ is the location of the detector slit.  Figure ~\ref{fresnel_diagram} shows the parameters and their use in the Fresnel model.  
+The parameters have the same meanings as in the Fraunhofer model, with the addition of $D_1$, the distance from the columnating slit to the diffracting slit, and with the exception of $x$, $y$, and $z$: $x$ is the location of the columnating slit, $y$ is the location of the diffracting slit, and $z$ is the location of the detector slit.  Figure ~\ref{fresnel_diagram} shows the parameters and their use in the Fresnel model.  
 
 \begin{figure}[h!]
 \centering
