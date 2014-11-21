@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -421,7 +421,7 @@ F inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./double_slit_fraunhofer_plot.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
->] <fresnel_diagram.png, id=338, 312.41719pt x 205.5178pt>
+>] <fresnel_diagram.png, id=335, 312.41719pt x 205.5178pt>
 File: fresnel_diagram.png Graphic file (type png)
 
 <use fresnel_diagram.png>
@@ -431,55 +431,51 @@ Package pdftex.def Info: fresnel_diagram.png used on input line 191.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<double_slit_fresnel_plot.pdf, id=340, 719.68875pt x 386.44376pt>
+<double_slit_fresnel_plot.pdf, id=337, 761.84625pt x 412.54124pt>
 File: double_slit_fresnel_plot.pdf Graphic file (type pdf)
 
 <use double_slit_fresnel_plot.pdf>
 Package pdftex.def Info: double_slit_fresnel_plot.pdf used on input line 198.
-(pdftex.def)             Requested size: 433.62pt x 232.84099pt.
+(pdftex.def)             Requested size: 433.62pt x 234.80473pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<far_slit_fresnel_plot.pdf, id=341, 694.595pt x 370.38374pt>
+<far_slit_fresnel_plot.pdf, id=338, 711.65875pt x 381.425pt>
 File: far_slit_fresnel_plot.pdf Graphic file (type pdf)
 
 <use far_slit_fresnel_plot.pdf>
 Package pdftex.def Info: far_slit_fresnel_plot.pdf used on input line 206.
-(pdftex.def)             Requested size: 289.07999pt x 154.15286pt.
+(pdftex.def)             Requested size: 216.81pt x 116.19768pt.
 
-Overfull \hbox (78.48141pt too wide) in paragraph at lines 206--207
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 206--207
  [][] 
  []
 
-<near_slit_fresnel_plot.pdf, id=342, 694.595pt x 370.38374pt>
+<near_slit_fresnel_plot.pdf, id=339, 711.65875pt x 381.425pt>
 File: near_slit_fresnel_plot.pdf Graphic file (type pdf)
 
 <use near_slit_fresnel_plot.pdf>
 Package pdftex.def Info: near_slit_fresnel_plot.pdf used on input line 210.
-(pdftex.def)             Requested size: 289.07999pt x 154.15286pt.
+(pdftex.def)             Requested size: 216.81pt x 116.19768pt.
 
-Overfull \hbox (78.48141pt too wide) in paragraph at lines 210--211
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 210--211
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9]
+[9] [10 <./fresnel_diagram.png> <./double_slit_fresnel_plot.pdf>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 223.
 
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 223.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <./fresnel_diagram.png> <./double_slit_fresnel_plot.pdf>] [11 <./far_slit_f
-resnel_plot.pdf> <./near_slit_fresnel_plot.pdf
+ [11 <./far_slit_fresnel_plot.pdf> <./near_slit_fresnel_plot.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_fresnel_plot.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
@@ -487,10 +483,10 @@ nclusion: multiple pdfs with page group included in a single page
 No file Photon_Interference.bbl.
 [12] (./Photon_Interference.aux) ) 
 Here is how much of TeX's memory you used:
- 4385 strings out of 493117
- 59459 string characters out of 6135433
+ 4384 strings out of 493117
+ 59451 string characters out of 6135433
  140476 words of memory out of 5000000
- 7773 multiletter control sequences out of 15000+600000
+ 7772 multiletter control sequences out of 15000+600000
  11844 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,30p,1421b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -510,7 +506,7 @@ cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb>
-Output written on Photon_Interference.pdf (12 pages, 716652 bytes).
+Output written on Photon_Interference.pdf (12 pages, 716822 bytes).
 PDF statistics:
  467 PDF objects out of 1000 (max. 8388607)
  292 compressed objects within 3 object streams
