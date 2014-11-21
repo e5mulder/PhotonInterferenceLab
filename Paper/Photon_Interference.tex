@@ -7,6 +7,7 @@
 \usepackage{graphicx} % needed for figures
 \usepackage{color}
 \usepackage{ulem}
+\usepackage{multirow}
 \begin{document}
 
 % Be sure to use the \title, \author, \affiliation, and \abstract macros
@@ -76,11 +77,11 @@ To collect data, we moved the detector slit in increments of 0.1mm across the wi
 
 \section{Results}
 
-The main result of our experiment was that we did indeed see single slit and double slit interference patterns, as we expected.  We then we fit two models to the data, to quantitatively verify our observation and agreement with theory.  We calculated fits for both the Fraunhofer Model and the Fresnel Model.  The two are applied in different regimes, determined by the Fresnel number: $F = \frac{a^2}{\lambda L}$.  When $F << 1$ the small slit is far from the detector screen, and the Fraunhofer model applies.  Nearer to the slit, where $F \approx 1$, the Fresnel model is more accurate. ~\ref{wolfram}
+The main result of our experiment was that we did indeed see single slit and double slit interference patterns, as we expected.  We then we fit two models to the data, to quantitatively verify our observation and agreement with theory.  We calculated fits for both the Fraunhofer Model and the Fresnel Model.  The two are applied in different regimes, determined by the Fresnel number: $F = \frac{a^2}{\lambda L}$.  When $F << 1$ the small slit is far from the detector screen, and the Fraunhofer model applies.  Nearer to the slit, where $F \approx 1$, the Fresnel model is more accurate. ~\cite{wolfram} The Fresnel number for our experiment is roughly $\frac{(0.1mm)^2}{555nm*500mm} \approx 36$.  Therefore the Fresnel model should be more appropriate, though neither is quite right - we would have to use a longer box, a longer wavelength light source, or thinner slits, to make the Fresnel number closer to $1$. 
 
 \subsection{The Fraunhofer Model}
 
-The Fraunhofer Model treats light as a wave and models it's arrival at a plane very far away. This is called "far field." It uses the assumption that the distance between the plane of the slit and the detector plane is much greater than the features of the slits or of the diffraction pattern.  This assumption allows the integral of complex exponentials which exactly describes the situation (shown later in the Fresnel model) to be approximated by the following equations, which are simpler. ~\ref{wolfram}
+The Fraunhofer Model treats light as a wave and models it's arrival at a plane very far away. This is called "far field." It uses the assumption that the distance between the plane of the slit and the detector plane is much greater than the features of the slits or of the diffraction pattern.  This assumption allows the integral of complex exponentials which exactly describes the situation (shown later in the Fresnel model) to be approximated by the following sinusoidal equations, which are simpler. ~\cite{wolfram}
 
 For the double slit case, the equation simplifies to:
 \begin{equation}
@@ -103,11 +104,10 @@ We fit our data to the Fraunhofer model by plotting our entire data set against 
 
 %Insert graphs with fraunhofer fits here
 %report parameter values
-%chi-square values
 
 \subsection{The Fresnel Model}
 
-The Fresnel model does not use the approximation from the Fraunhofer model, since the detector plane is assumed to be in the "near field," closer to the slits. Therefore the equation is left in it's complex exponential form, and the distances between the slits and between slit and detector become very important.  ~\ref{wolfram} This equation is very difficult to solve, but a computing program such as Mathematica can run the calculation in five or ten minutes.  
+The Fresnel model does not use the approximation from the Fraunhofer model, since the detector plane is assumed to be in the "near field," closer to the slits. Therefore the equation is left in it's complex exponential form, and the distances between the slits and between slit and detector become very important.  ~\cite{wolfram} This equation is very difficult to solve, but a computing program such as Mathematica can run the calculation in five or ten minutes.  
 
 The single slit cases:
 
@@ -130,6 +130,23 @@ The parameters have the same meanings as in the Fraunhofer model, with the excep
 %graphs with fresnel fits
 %chi-squared values
 %new parameter values?
+
+\begin{table}[h!]
+\centering
+\caption{Chi-square values for our fits. The fits were not very good, but improved when the end regions were excluded.  The fresnel double slit, in particular, did not fit well at all - a glance at the graph shows why. }
+\begin{ruledtabular}
+\begin{tabular}{cccc}
+                            &             & 0mm \textless x\textless 80mm & 20mm \textless x \textless 60mm \\
+\multirow{3}{*}{Fraunhofer} & Double Slit & 52621.6                       & 15727.8                         \\
+                            & Far Slit    & 1607.48                       & 982.605                         \\
+                            & Near Slit   & 136.601                       &        67.7862            \\
+\multirow{3}{*}{Fresnel}    & Double Slit & 148650                        & 146556                          \\
+                            & Far Slit    & 4836.27                       & 2132.52                         \\
+                            & Near Slit   & 1289.81                       & 305.6                          
+\end{tabular}
+\end{ruledtabular}
+\label{chi-square}
+\end{table}
 
 \section{Analysis}
 
