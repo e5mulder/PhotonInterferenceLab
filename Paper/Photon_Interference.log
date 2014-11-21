@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 13:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -334,26 +334,24 @@ Package pdftex.def Info: set-up.pdf used on input line 69.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4] [5 <./set-up.pdf>] [6]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 139.
+<fresnel_diagram.png, id=199, 312.41719pt x 205.5178pt>
+File: fresnel_diagram.png Graphic file (type png)
 
+<use fresnel_diagram.png>
+Package pdftex.def Info: fresnel_diagram.png used on input line 137.
+(pdftex.def)             Requested size: 289.07999pt x 190.16998pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 152.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 139.
-
-<fresnel_diagram.png, id=199, 312.41719pt x 205.5178pt>
-File: fresnel_diagram.png Graphic file (type png)
-
-<use fresnel_diagram.png>
-Package pdftex.def Info: fresnel_diagram.png used on input line 157.
-(pdftex.def)             Requested size: 433.62pt x 285.25497pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7] [8 <./fresnel_diagram.png>]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 152.
+ [7] [8 <./fresnel_diagram.png>]
 No file Photon_Interference.bbl.
 [9] (./Photon_Interference.aux) ) 
 Here is how much of TeX's memory you used:
@@ -380,7 +378,7 @@ m/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb>
-Output written on Photon_Interference.pdf (9 pages, 370818 bytes).
+Output written on Photon_Interference.pdf (9 pages, 370803 bytes).
 PDF statistics:
  265 PDF objects out of 1000 (max. 8388607)
  156 compressed objects within 2 object streams
