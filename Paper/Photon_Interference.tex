@@ -76,11 +76,11 @@ To collect data, we moved the detector slit in increments of 0.1mm across the wi
 
 \section{Results}
 
-The main result of our experiment was that we did indeed see single slit and double slit interference patterns, as we expected.  We then we fit two models to the data, to quantitatively verify our observation and agreement with theory.  We calculated fits for both the Fraunhofer Model and the Fresnel Model.  The two are applied in different regimes, determined by the Fresnel number: $F = \frac{a^2}{\lambda L}$.  When $F << 1$ the small slit is far from the detector screen, and the Fraunhofer model applies.  Nearer to the slit, where $F \approx 1$, the Fresnel model is more accurate.  
+The main result of our experiment was that we did indeed see single slit and double slit interference patterns, as we expected.  We then we fit two models to the data, to quantitatively verify our observation and agreement with theory.  We calculated fits for both the Fraunhofer Model and the Fresnel Model.  The two are applied in different regimes, determined by the Fresnel number: $F = \frac{a^2}{\lambda L}$.  When $F << 1$ the small slit is far from the detector screen, and the Fraunhofer model applies.  Nearer to the slit, where $F \approx 1$, the Fresnel model is more accurate. ~\ref{wolfram}
 
 \subsection{The Fraunhofer Model}
 
-The Fraunhofer Model treats light as a wave and models it's arrival at a plane very far away. This is called "far field." It uses the assumption that the distance between the plane of the slit and the detector plane is much greater than the features of the slits or of the diffraction pattern.  This assumption allows the integral of complex exponentials which exactly describes the situation (shown later in the Fresnel modle) to be approxmiated by the following equations, which are simpler. The Fraunhofer model also does not depend on the distances between the slits and the detector, since that distance is modeled as infinite in the approximation.  
+The Fraunhofer Model treats light as a wave and models it's arrival at a plane very far away. This is called "far field." It uses the assumption that the distance between the plane of the slit and the detector plane is much greater than the features of the slits or of the diffraction pattern.  This assumption allows the integral of complex exponentials which exactly describes the situation (shown later in the Fresnel modle) to be approxmiated by the following equations, which are simpler. ~\ref{wolfram}
 
 For the double slit case, the equation simplifies to:
 \begin{equation}
@@ -88,35 +88,48 @@ I_{double}= I_{0}(\frac{\sin(\frac{\pi a}{\lambda}\sin(\frac{x-x_{0}}{D_{2}}))}{
 \end{equation}
 
 For the single slit cases, the equations are: 
+
+\begin{equation}
+I_{far}= \frac{I_{0}}{4}(\frac{\sin(\frac{\pi a}{\lambda}\sin(\frac{x-x_{1}}{D_{2}}))}{\frac{\pi a}{\lambda}\sin(\frac{x-x_{1}}{D_{2}})})^{2} 
+\end{equation}
+
 \begin{equation}
 I_{near}= \frac{I_{0}}{4}(\frac{\sin(\frac{\pi a}{\lambda}\sin(\frac{x-x_{2}}{D_{2}}))}{\frac{\pi a}{\lambda}\sin(\frac{x-x_{2}}{D_{2}})})^{2} 
+\end{equation}
+
+Where $I_0$ is the amplitude of the central maximum, $a$ is the width of the slits, $x_0$ is the location of the central maximum in the double-slit pattern, $x_1$ is the location of the central max in the far single-slit pattern, $x_2$ is the location of the central max in the near single-slit pattern, $D_2$ is the distance between the slit and the detector, $\lambda$ is the wavelength of the light, and $x$ is the position of the detector slit. 
+
+We fit our data to the Fraunhofer model by plotting our entire data set against the model, using the manufactuerer's values for the slit widths, slit separation, and light wavelenght, and our observed maximum intensity.  We then modified these values to try and get a better fit of the function to the data.  As the manufacturer did not give error for most of their parameters, we had to guess at the limits within which we could vary the parameter values.  However, we obtained a good fit for the double slit pattern (excpeting the very edges), and decent fits for the single slit patterns.  Our single slit data was slightly off because we had not centered the columnated light exactly on the two slits, so one slit had approximately $10\%$ more illumination than the other.  As the fit assumed equal illumination from both slits, the amplitudes did not match.  
+
+%Insert graphs with fraunhofer fits here
+%report parameter values
+%chi-square values
+
+\subsection{The Fresnel Model}
+
+The Fresnel model does not use the approximation from the Fraunhofer model, since the detector plane is assumed to be in the "near field," closer to the slits. Therefore the equation is left in it's complex exponential form, and the distances between the slits and between slit and detector become very important.  ~\ref{wolfram} This equation is very difficult to solve, but a computing program such as Mathematica can run the calculation in five or ten minutes.  
+
+The single slit cases:
+
+
+\begin{equation}
+I_{near}=I_{0}*33.3*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{x_{0}-\frac{d}{2}}^{x_{0}+\frac{d}{2}+a} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
 \end{equation}
 
 \begin{equation}
 I_{far}=I_{0}*33.3*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{x_{0}+\frac{d}{2}}-a^{x_{0}-\frac{d}{2}} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
 \end{equation}
 
-We fit our data to the Fraunhofer model by plotting our entire data set against the model, using the manufactuerer's values for the slit widths, slit separation, and light wavelenght, and our observed maximum intensity.  We then modified these values to try and get a better fit of the function to the data.  As the manufacturer did not give error for most of their parameters, we had to guess at the limits within which we could vary the parameter values.  However, we obtained a good fit for the double slit pattern (excpeting the very edges), and decent fits for the single slit patterns.  Our single slit data was slightly off because we had not centered the columnated light exactly on the two slits, so one slit had approximately $10\%$ more illumination than the other.  As the fit assumed equal illumination from both slits, the amplitudes did not match.  
-
-%Insert graphs with fits here
-
-\subsection{The Fresnel Model}
-
-The Fresnel model does not use the approximation from the Fraunhofer model, since the detector plane is assumed to be in the "near field," closer to the slits. Therefore the equation is left in it's complex exponential form, and the distances between the slits and between slit and detector become very important.  This equation is very difficult to solve, but a computing program such as Mathematica can run the calculation in five or ten minutes.  
-
-The single slit cases:
-\begin{equation}
-I_{near}= \frac{I_{0}}{4}(\frac{\sin(\frac{\pi a}{\lambda}\sin(\frac{x-x_{1}}{D_{2}}))}{\frac{\pi a}{\lambda}\sin(\frac{x-x_{1}}{D_{2}})})^{2} 
-\end{equation}
-
-\begin{equation}
-I_{far}=I_{0}*33.3*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{x_{0}-\frac{d}{2}}^{x_{0}+\frac{d}{2}+a} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
-\end{equation}
-
 The double slit case is simply the sum of the waveforms generated by each slit: 
 \begin{equation}
 I_{double}=I_{near}+I_{far}
 \end{equation}
+
+The parameters have the same meanings as in the Fraunhofer model, with the exception of $x$, $y$, and $z$: $x$ is the location of the columnating slit, $y$ is the location of the diffracting slit, and $z$ is the location of the detector slit.  Figure ~\ref{fresnel_diagram} shows the parameters and their use in the Fresnel model.  
+
+%graphs with fresnel fits
+%chi-squared values
+%new parameter values?
 
 \section{Analysis}
 
@@ -131,12 +144,15 @@ Below, we discuss the two models and our fits, as well as the goodness of these 
 
 \section{Discussion}
 
+Our biggest question with this experiment was why, while we obtained clear data of the intereference patterns, these results deviated from the theoretical model.  In particular the Fresnel model could not be made to fit our data, even with the best estimations of our parameters, and considering we were in the regime of the Fresnel model (detector not very far away), we found this strange. In addition, we observed that the Fresnel model did very well at the very edges of our pattern, while the Fraunhofer model did better in the middle.  We do not know why this was.  
+
 \section{Conclusion}
 
  
 \begin{thebibliography}{3}
  \bibitem{newton}Use of Hamilton's Canonical Equations to Rectify Newton's Corpuscular Theory of Light:  A Missed Opportunity.  Buenker et al, 2004.  Sov. J. Chem. Phys. 22 (2003) 124
  \bibitem{david}Introduction to Electrodynamics, 4th Edition.  David J. Griffiths, 2012.  Addison Wesley.
+\bibitem{wolfram}Weisstein, Eric W. Wolfram Science World, "Fraunhofer Diffraction," "Fresnel Diffraction," "Fresnel Number." 2007. 
 
 \end{thebibliography}
 \end{document}
