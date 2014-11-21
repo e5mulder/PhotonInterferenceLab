@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -333,55 +333,187 @@ Package pdftex.def Info: set-up.pdf used on input line 69.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5 <./set-up.pdf>] [6]
-<fresnel_diagram.png, id=199, 312.41719pt x 205.5178pt>
+[4] <double_slit_plot.pdf, id=23, 698.61pt x 373.395pt>
+File: double_slit_plot.pdf Graphic file (type pdf)
+
+<use double_slit_plot.pdf>
+Package pdftex.def Info: double_slit_plot.pdf used on input line 80.
+(pdftex.def)             Requested size: 433.62pt x 231.76459pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<far_slit_plot.pdf, id=24, 698.61pt x 373.395pt>
+File: far_slit_plot.pdf Graphic file (type pdf)
+ <use far_slit_plot.pdf>
+Package pdftex.def Info: far_slit_plot.pdf used on input line 88.
+(pdftex.def)             Requested size: 216.81pt x 115.8823pt.
+
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 88--89
+ [][] 
+ []
+
+<near_slit_plot.pdf, id=25, 698.61pt x 373.395pt>
+File: near_slit_plot.pdf Graphic file (type pdf)
+ <use near_slit_plot.pdf>
+Package pdftex.def Info: near_slit_plot.pdf used on input line 92.
+(pdftex.def)             Requested size: 216.81pt x 115.8823pt.
+
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 92--93
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./set-up.pdf>] [6 <./double_slit_plot.pdf> <./far_slit_plot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./far_slit_plot.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./near_slit_plot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_plot.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>] <far_slit_fraunhofer_plot.pdf, id=264, 698.61pt x 373.395pt>
+File: far_slit_fraunhofer_plot.pdf Graphic file (type pdf)
+
+<use far_slit_fraunhofer_plot.pdf>
+Package pdftex.def Info: far_slit_fraunhofer_plot.pdf used on input line 130.
+(pdftex.def)             Requested size: 216.81pt x 115.8823pt.
+
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+<near_slit_fraunhofer_plot.pdf, id=265, 698.61pt x 373.395pt>
+File: near_slit_fraunhofer_plot.pdf Graphic file (type pdf)
+
+<use near_slit_fraunhofer_plot.pdf>
+Package pdftex.def Info: near_slit_fraunhofer_plot.pdf used on input line 134.
+(pdftex.def)             Requested size: 216.81pt x 115.8823pt.
+
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 134--135
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<double_slit_fraunhofer_plot.pdf, id=266, 698.61pt x 373.395pt>
+File: double_slit_fraunhofer_plot.pdf Graphic file (type pdf)
+
+<use double_slit_fraunhofer_plot.pdf>
+Package pdftex.def Info: double_slit_fraunhofer_plot.pdf used on input line 142
+.
+(pdftex.def)             Requested size: 433.62pt x 231.76459pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7] [8 <./far_slit_fraunhofer_plot.pdf> <./near_slit_fraunhofer_plot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_fraunhofer_plot.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+> <./double_slit_fraunhofer_plot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./double_slit_fraunhofer_plot.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>] <fresnel_diagram.png, id=338, 312.41719pt x 205.5178pt>
 File: fresnel_diagram.png Graphic file (type png)
 
 <use fresnel_diagram.png>
-Package pdftex.def Info: fresnel_diagram.png used on input line 137.
+Package pdftex.def Info: fresnel_diagram.png used on input line 191.
 (pdftex.def)             Requested size: 289.07999pt x 190.16998pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 152.
+<double_slit_fresnel_plot.pdf, id=340, 719.68875pt x 386.44376pt>
+File: double_slit_fresnel_plot.pdf Graphic file (type pdf)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
+<use double_slit_fresnel_plot.pdf>
+Package pdftex.def Info: double_slit_fresnel_plot.pdf used on input line 198.
+(pdftex.def)             Requested size: 433.62pt x 232.84099pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<far_slit_fresnel_plot.pdf, id=341, 694.595pt x 370.38374pt>
+File: far_slit_fresnel_plot.pdf Graphic file (type pdf)
+
+<use far_slit_fresnel_plot.pdf>
+Package pdftex.def Info: far_slit_fresnel_plot.pdf used on input line 206.
+(pdftex.def)             Requested size: 289.07999pt x 154.15286pt.
+
+Overfull \hbox (78.48141pt too wide) in paragraph at lines 206--207
+ [][] 
+ []
+
+<near_slit_fresnel_plot.pdf, id=342, 694.595pt x 370.38374pt>
+File: near_slit_fresnel_plot.pdf Graphic file (type pdf)
+
+<use near_slit_fresnel_plot.pdf>
+Package pdftex.def Info: near_slit_fresnel_plot.pdf used on input line 210.
+(pdftex.def)             Requested size: 289.07999pt x 154.15286pt.
+
+Overfull \hbox (78.48141pt too wide) in paragraph at lines 210--211
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 223.
+
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 152.
- [7] [8 <./fresnel_diagram.png>]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 223.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./fresnel_diagram.png> <./double_slit_fresnel_plot.pdf>] [11 <./far_slit_f
+resnel_plot.pdf> <./near_slit_fresnel_plot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_fresnel_plot.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]
 No file Photon_Interference.bbl.
-[9] (./Photon_Interference.aux) ) 
+[12] (./Photon_Interference.aux) ) 
 Here is how much of TeX's memory you used:
- 4331 strings out of 493117
- 57999 string characters out of 6135433
- 137371 words of memory out of 5000000
- 7728 multiletter control sequences out of 15000+600000
+ 4385 strings out of 493117
+ 59459 string characters out of 6135433
+ 140476 words of memory out of 5000000
+ 7773 multiletter control sequences out of 15000+600000
  11844 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,30p,1421b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i12.pfb>
-Output written on Photon_Interference.pdf (9 pages, 370803 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on Photon_Interference.pdf (12 pages, 716800 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 467 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

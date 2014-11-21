@@ -77,6 +77,13 @@ The main result of our experiment was that we did indeed see single slit and dou
 
 \begin{figure}[h!]
 \centering
+\includegraphics[width=6in]{double_slit_plot.pdf}
+\caption{Our data for the double slit pattern.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
+\label{double_slit_plot}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
 \begin{minipage}[b]{0.45\linewidth}
 	\includegraphics[width=3in]{far_slit_plot.pdf}
 \end{minipage}
@@ -86,13 +93,6 @@ The main result of our experiment was that we did indeed see single slit and dou
 \end{minipage}
 \caption{Our data for the single slit patterns. Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
 \label{single_slits_plot}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=6in]{double_slit_plot.pdf}
-\caption{Our data for the double slit pattern.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
-\label{double_slit_plot}
 \end{figure}
 
 \section{Analysis}
@@ -124,32 +124,45 @@ Where $I_0$ is the amplitude of the central maximum, $a$ is the width of the sli
 
 We fit our data to the Fraunhofer model by plotting our entire data set against the model, using the manufacturer's values for the slit widths, slit separation, and light wavelength, and our observed maximum intensity.  We then modified these values to try and get a better fit of the function to the data.  As the manufacturer did not give error for most of their parameters, we had to guess at the limits within which we could vary the parameter values.  However, we obtained a good fit for the double slit pattern (with the exception of the very edges), and decent fits for the single slit patterns.  Our single slit data was slightly off because we had not centered the columnated light exactly on the two slits, so one slit had approximately $10\%$ more illumination than the other.  As the fit assumed equal illumination from both slits, the amplitudes did not match.  
 
-%Insert graphs with fraunhofer fits here
 \begin{figure}[h!]
 \centering
-\includegraphics[width=6in]{}
-\caption{}
-\label{}
+\begin{minipage}[b]{0.45\linewidth}
+	\includegraphics[width=3in]{far_slit_fraunhofer_plot.pdf}
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.45\linewidth}
+	\includegraphics[width=3in]{near_slit_fraunhofer_plot.pdf}
+\end{minipage}
+\caption{Our data for the single slit patterns with the fraunhofer formula on top. The parameters we used are in Table ~\ref{parameters}. Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
+\label{single_slits_fraunhofer_plot}
 \end{figure}
 
-%report parameter values
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{double_slit_fraunhofer_plot.pdf}
+\caption{Our data for the double slit pattern.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
+\label{double_slit_fraunhofer_plot}
+\end{figure}
+
 \begin{table}[h!]
 \centering
-\caption{Chi-square values for our fits. }
+\caption{Parameter values for our fits. We started with the values given in the apparatus manual ($a, d, \lambda$), measured ($D_1, D_2$), or estimated from the plots ($I_0, x_0, x_1, x_2, c$).  We then optimized (within the uncertainty for each parameter) to get the fraunhofer fits as close to the data as possible. }
 \begin{ruledtabular}
-\begin{tabular}{cc}
+\begin{tabular}{lc}
 Parameter & Fit value       \\
-$I_0$     & 4400 counts/sec \\
-$a$       & 0.085 mm        \\
-$d$       & 0.406 mm        \\
-$\lambda$ & 555 nm          \\
-$x_0$     & 3.95 mm         \\
-$c$       & 3.6 counts/sec. \\
-$D_1$     & 338 mm          \\
-$D_2$     & 500 mm         
+Counts/sec at central max $I_0$     & 4400 counts/sec \\
+Slit width $a$       & 0.085 mm        \\
+Slit separation $d$       & 0.406 mm        \\
+Light wavelength $\lambda$ & 555 nm          \\
+Location of central max (double slit) $x_0$     & 3.95 mm         \\
+Location of central max (far slit) $x_1$     & 3.45 mm \\
+Location of central max (near slit) $x_2$ & 4.45 mm \\
+Offset $c$       & 3.6 counts/sec. \\
+Distance from columnating slit to diffracting slits $D_1$     & 338 mm          \\
+Distance from diffracting slits to detector slit $D_2$     & 500 mm         
 \end{tabular}
 \end{ruledtabular}
-\label{chi-square}
+\label{parameters}
 \end{table}
 
 \subsection{The Fresnel Model}
@@ -173,7 +186,6 @@ I_{double}=I_{near}+I_{far}
 
 The parameters have the same meanings as in the Fraunhofer model, with the addition of $D_1$, the distance from the columnating slit to the single/double slit, and with the exception of $x$, $y$, and $z$: $x$ is the location of the columnating slit, $y$ is the location of the diffracting slit, and $z$ is the location of the detector slit.  Figure ~\ref{fresnel_diagram} shows the parameters and their use in the Fresnel model.  
 
-
 \begin{figure}[h!]
 \centering
 \includegraphics[width=4in]{fresnel_diagram.png}
@@ -181,14 +193,27 @@ The parameters have the same meanings as in the Fraunhofer model, with the addit
 \label{fresnel_diagram}
 \end{figure}
 
-
-%graphs with fresnel fits
 \begin{figure}[h!]
 \centering
-\includegraphics[width=6in]{}
-\caption{}
-\label{}
+\includegraphics[width=6in]{double_slit_fresnel_plot.pdf}
+\caption{Our data for the double slit pattern.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
+\label{double_slit_fresnel_plot}
 \end{figure}
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}[b]{0.45\linewidth}
+	\includegraphics[width=4in]{far_slit_fresnel_plot.pdf}
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.45\linewidth}
+	\includegraphics[width=4in]{near_slit_fresnel_plot.pdf}
+\end{minipage}
+\caption{Our data for the single slit patterns with the fraunhofer formula on top. The parameters we used are in Table ~\ref{parameters}. Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
+\label{single_slits_fresnel_plot}
+\end{figure}
+
+After fitting our data, we computed the chi-square value for each fit (see Table ~\ref{chi-square}).  All the values were very large.  By examining the distance of individual points from the fit, however, we realized that the majority actually had small deviations from the line, with a few outliers which weighted the fit.  Even so, from the graphs it is clear that no single set of parameter values allows all the fits to match the data.  We optimized our parameters for the Fraunhofer double-slit fit - as these parameter values were within the uncertainty of what we knew they should be, we kept these parameters.  However, the other fits each had some sort of systematic offset from the line.  
 
 \begin{table}[h!]
 \centering
@@ -212,7 +237,7 @@ The parameters have the same meanings as in the Fraunhofer model, with the addit
 
 Our biggest question with this experiment was why, while we obtained clear data of the interference patterns, these results deviated from the theoretical model.  In particular the Fresnel model could not be made to fit our data, even with the best estimations of our parameters, and considering we were in the regime of the Fresnel model (detector not very far away), we found this strange. In addition, we observed that the Fresnel model did very well at the very edges of our pattern, while the Fraunhofer model did better in the middle.  We do not know why this was.  
 
-In order to gauge better the fits of the models to the experimental data, we would want to repeat this experiment using smaller incremental turns of the micrometer.  There are large gaps in our plotted fits that could be closed with tighter measurements.  We possibly would want to turn the micrometer by .005 mm instead of .01 mm increments.  
+In order to gauge better the fits of the models to the experimental data, we would want to repeat this experiment using smaller incremental turns of the micrometer.  There are large gaps in our plotted fits that could be closed with tighter measurements.  We possibly would want to turn the micrometer by .05 mm instead of .1 mm increments.  
 
 \section{Conclusion}
 
