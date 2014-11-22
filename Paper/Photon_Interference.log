@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -322,37 +322,15 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `newton' on page 2 undefined on input line 46.
-
-
-
-Package natbib Warning: Citation `david' on page 2 undefined on input line 46.
-
-
-Package natbib Warning: Citation `modern' on page 2 undefined on input line 48.
-
-
-
-Package natbib Warning: Citation `teachspin' on page 2 undefined on input line 
-50.
-
-[2] [3] [4] <set-up.pdf, id=25, 793.99933pt x 269.84413pt>
+) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+ [3] [4]
+<set-up.pdf, id=24, 793.99933pt x 269.84413pt>
 File: set-up.pdf Graphic file (type pdf)
  <use set-up.pdf>
 Package pdftex.def Info: set-up.pdf used on input line 71.
 (pdftex.def)             Requested size: 433.62pt x 147.36888pt.
 
-
-LaTeX Warning: Reference `double_slit_plot' on page 5 undefined on input line 7
-8.
-
-
-LaTeX Warning: Reference `single_slits_plot' on page 5 undefined on input line 
-78.
-
-<double_slit_plot.pdf, id=26, 698.61pt x 373.395pt>
+<double_slit_plot.pdf, id=25, 698.61pt x 373.395pt>
 File: double_slit_plot.pdf Graphic file (type pdf)
  <use double_slit_plot.pdf>
 Package pdftex.def Info: double_slit_plot.pdf used on input line 82.
@@ -361,7 +339,7 @@ Package pdftex.def Info: double_slit_plot.pdf used on input line 82.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<far_slit_plot.pdf, id=27, 698.61pt x 373.395pt>
+<far_slit_plot.pdf, id=26, 698.61pt x 373.395pt>
 File: far_slit_plot.pdf Graphic file (type pdf)
  <use far_slit_plot.pdf>
 Package pdftex.def Info: far_slit_plot.pdf used on input line 90.
@@ -371,7 +349,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-<near_slit_plot.pdf, id=28, 698.61pt x 373.395pt>
+<near_slit_plot.pdf, id=27, 698.61pt x 373.395pt>
 File: near_slit_plot.pdf Graphic file (type pdf)
  <use near_slit_plot.pdf>
 Package pdftex.def Info: near_slit_plot.pdf used on input line 94.
@@ -384,12 +362,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 94--95
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./set-up.pdf>]
-
-Package natbib Warning: Citation `wolfram' on page 6 undefined on input line 10
-4.
-
-[6 <./double_slit_plot.pdf> <./far_slit_plot.pdf
+[5 <./set-up.pdf>] [6 <./double_slit_plot.pdf> <./far_slit_plot.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./far_slit_plot.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -397,12 +370,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./far_slit_plot.pdf): PDF inclusion:
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_plot.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->]
-
-Package natbib Warning: Citation `wolfram' on page 7 undefined on input line 10
-8.
-
-[7] <far_slit_Fraunhofer_plot.pdf, id=269, 698.61pt x 373.395pt>
+>] [7] <far_slit_Fraunhofer_plot.pdf, id=268, 698.61pt x 373.395pt>
 File: far_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use far_slit_Fraunhofer_plot.pdf>
@@ -413,7 +381,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
-<near_slit_Fraunhofer_plot.pdf, id=270, 698.61pt x 373.395pt>
+<near_slit_Fraunhofer_plot.pdf, id=269, 698.61pt x 373.395pt>
 File: near_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use near_slit_Fraunhofer_plot.pdf>
@@ -424,13 +392,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 136--137
  [][] 
  []
 
-
-LaTeX Warning: Reference `parameters' on page 8 undefined on input line 138.
-
-
-LaTeX Warning: Reference `parameters' on page 8 undefined on input line 138.
-
-<double_slit_Fraunhofer_plot.pdf, id=271, 698.61pt x 373.395pt>
+<double_slit_Fraunhofer_plot.pdf, id=270, 698.61pt x 373.395pt>
 File: double_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use double_slit_Fraunhofer_plot.pdf>
@@ -441,10 +403,6 @@ Package pdftex.def Info: double_slit_Fraunhofer_plot.pdf used on input line 144
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package natbib Warning: Citation `wolfram' on page 8 undefined on input line 17
-2.
-
 [8 <./far_slit_Fraunhofer_plot.pdf> <./near_slit_Fraunhofer_plot.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_Fraunhofer_plot.pdf): PD
@@ -453,19 +411,14 @@ F inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./double_slit_Fraunhofer_plot.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Reference `Fresnel_diagram' on page 9 undefined on input line 18
-9.
-
-[9] <Fresnel_diagram.png, id=343, 312.41719pt x 205.5178pt>
+>] [9] <Fresnel_diagram.png, id=342, 312.41719pt x 205.5178pt>
 File: Fresnel_diagram.png Graphic file (type png)
 
 <use Fresnel_diagram.png>
 Package pdftex.def Info: Fresnel_diagram.png used on input line 193.
 (pdftex.def)             Requested size: 289.07999pt x 190.16998pt.
 
-<double_slit_Fresnel_plot.pdf, id=345, 761.84625pt x 412.54124pt>
+<double_slit_Fresnel_plot.pdf, id=344, 761.84625pt x 412.54124pt>
 File: double_slit_Fresnel_plot.pdf Graphic file (type pdf)
 
 <use double_slit_Fresnel_plot.pdf>
@@ -475,7 +428,7 @@ Package pdftex.def Info: double_slit_Fresnel_plot.pdf used on input line 200.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<far_slit_Fresnel_plot.pdf, id=346, 711.65875pt x 381.425pt>
+<far_slit_Fresnel_plot.pdf, id=345, 711.65875pt x 381.425pt>
 File: far_slit_Fresnel_plot.pdf Graphic file (type pdf)
 
 <use far_slit_Fresnel_plot.pdf>
@@ -486,7 +439,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 208--209
  [][] 
  []
 
-<near_slit_Fresnel_plot.pdf, id=347, 711.65875pt x 381.425pt>
+<near_slit_Fresnel_plot.pdf, id=346, 711.65875pt x 381.425pt>
 File: near_slit_Fresnel_plot.pdf Graphic file (type pdf)
 
 <use near_slit_Fresnel_plot.pdf>
@@ -498,16 +451,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 212--213
  []
 
 
-LaTeX Warning: Reference `parameters' on page 10 undefined on input line 214.
-
-
-LaTeX Warning: Reference `parameters' on page 10 undefined on input line 214.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `chi-square' on page 10 undefined on input line 218.
 
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 225.
 
@@ -529,56 +473,37 @@ clusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_Fresnel_plot.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->] [12]
-
-LaTeX Warning: Reference `LastBibItem' on page 13 undefined on input line 252.
-
+>] [12] [13]
 No file Photon_Interference.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[13] (./Photon_Interference.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+[14] (./Photon_Interference.aux) ) 
 Here is how much of TeX's memory you used:
- 4391 strings out of 493117
- 59538 string characters out of 6135433
- 137229 words of memory out of 5000000
- 7778 multiletter control sequences out of 15000+600000
- 12460 words of font info for 48 fonts, out of 8000000 for 9000
+ 4397 strings out of 493117
+ 59608 string characters out of 6135433
+ 137521 words of memory out of 5000000
+ 7785 multiletter control sequences out of 15000+600000
+ 11844 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,30p,1328b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Photon_Interference.pdf (13 pages, 728938 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on Photon_Interference.pdf (14 pages, 723881 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
+ 474 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
