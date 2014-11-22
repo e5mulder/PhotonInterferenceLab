@@ -1,13 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 20:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.9)  21 NOV 2014 22:39
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
 **Photon_Interference.tex
-(./Photon_Interference.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revtex4-1.cls
+
+(C:\Users\Liza\Documents\GitHub\PhotonInterferenceLab\Paper\Photon_Interference
+.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\revtex4-1.cls"
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -69,7 +77,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 
 Class revtex4-1 Warning: No Society specified, using default society aps.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps4-1.rtx
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\aps4-1.rtx"
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -77,19 +85,19 @@ Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 Class revtex4-1 Info: Selecting journal prb on input line 7544.
 Class revtex4-1 Info: APS journal PRB selected on input line 7545.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps12pt4-1.rtx
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\aps12pt4-1.rtx"
 File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/textcase/textcase.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -98,31 +106,31 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\revsymb4-1.sty"
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen102
 )
 LaTeX Info: Redefining \text on input line 39.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen103
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count95
@@ -163,7 +171,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -172,31 +180,31 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Info: Redefining \frak on input line 111.
 LaTeX Info: Redefining \Bbb on input line 113.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count107
@@ -204,15 +212,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 137.
+Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/ulem/ulem.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
 \UL@box=\box43
 \UL@hyphenbox=\box44
 \UL@skip=\skip49
@@ -224,7 +232,7 @@ Package color Info: Driver file: pdftex.def on input line 137.
 Package: ulem 2012/05/18
 \ULdepth=\dimen115
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen116
 )
 Class revtex4-1 Info: Patching LaTeX tabular. on input line 11.
@@ -234,9 +242,8 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 11.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 11.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 11.
 
-(./Photon_Interference.aux)
-\openout1 = `Photon_Interference.aux'.
-
+(C:\Users\Liza\Documents\GitHub\PhotonInterferenceLab\Paper\Photon_Interference
+.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -249,8 +256,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen117
@@ -263,74 +269,23 @@ LaTeX Font Info:    ... okay on input line 11.
 \MPnumerator=\count113
 \makeMPintoPDFobject=\count114
 \everyMPtoPDFconversion=\toks24
-) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\openout3 = `Photon_InterferenceNotes.bib'.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 40.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
- [3] [4]
-<set-up.pdf, id=24, 793.99933pt x 269.84413pt>
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
+<set-up.pdf, id=23, 793.99933pt x 269.84413pt>
 File: set-up.pdf Graphic file (type pdf)
  <use set-up.pdf>
 Package pdftex.def Info: set-up.pdf used on input line 71.
 (pdftex.def)             Requested size: 433.62pt x 147.36888pt.
 
-<double_slit_plot.pdf, id=25, 698.61pt x 373.395pt>
+<double_slit_plot.pdf, id=24, 698.61pt x 373.395pt>
 File: double_slit_plot.pdf Graphic file (type pdf)
  <use double_slit_plot.pdf>
 Package pdftex.def Info: double_slit_plot.pdf used on input line 82.
@@ -339,7 +294,7 @@ Package pdftex.def Info: double_slit_plot.pdf used on input line 82.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<far_slit_plot.pdf, id=26, 698.61pt x 373.395pt>
+<far_slit_plot.pdf, id=25, 698.61pt x 373.395pt>
 File: far_slit_plot.pdf Graphic file (type pdf)
  <use far_slit_plot.pdf>
 Package pdftex.def Info: far_slit_plot.pdf used on input line 90.
@@ -349,7 +304,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-<near_slit_plot.pdf, id=27, 698.61pt x 373.395pt>
+<near_slit_plot.pdf, id=26, 698.61pt x 373.395pt>
 File: near_slit_plot.pdf Graphic file (type pdf)
  <use near_slit_plot.pdf>
 Package pdftex.def Info: near_slit_plot.pdf used on input line 94.
@@ -362,15 +317,21 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 94--95
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./set-up.pdf>] [6 <./double_slit_plot.pdf> <./far_slit_plot.pdf
+[5 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/set-up.pdf>]
+[6 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/double_slit_plot
+.pdf> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/far_slit_plot
+.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./far_slit_plot.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
-> <./near_slit_plot.pdf
+pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
+terferenceLab/Paper/far_slit_plot.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/near_slit_plot.pd
+f
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_plot.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->] [7] <far_slit_Fraunhofer_plot.pdf, id=268, 698.61pt x 373.395pt>
+pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
+terferenceLab/Paper/near_slit_plot.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] [7] <far_slit_Fraunhofer_plot.pdf, id=266, 698.61pt x 373.395pt>
 File: far_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use far_slit_Fraunhofer_plot.pdf>
@@ -381,7 +342,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
-<near_slit_Fraunhofer_plot.pdf, id=269, 698.61pt x 373.395pt>
+<near_slit_Fraunhofer_plot.pdf, id=267, 698.61pt x 373.395pt>
 File: near_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use near_slit_Fraunhofer_plot.pdf>
@@ -392,7 +353,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 136--137
  [][] 
  []
 
-<double_slit_Fraunhofer_plot.pdf, id=270, 698.61pt x 373.395pt>
+<double_slit_Fraunhofer_plot.pdf, id=268, 698.61pt x 373.395pt>
 File: double_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use double_slit_Fraunhofer_plot.pdf>
@@ -403,22 +364,27 @@ Package pdftex.def Info: double_slit_Fraunhofer_plot.pdf used on input line 144
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./far_slit_Fraunhofer_plot.pdf> <./near_slit_Fraunhofer_plot.pdf
+[8 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/far_slit_Fraunho
+fer_plot.pdf> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/near_
+slit_Fraunhofer_plot.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_Fraunhofer_plot.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <./double_slit_Fraunhofer_plot.pdf
+pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
+terferenceLab/Paper/near_slit_Fraunhofer_plot.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/double_slit_Fraun
+hofer_plot.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./double_slit_Fraunhofer_plot.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
->] [9] <Fresnel_diagram.png, id=342, 312.41719pt x 205.5178pt>
+pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
+terferenceLab/Paper/double_slit_Fraunhofer_plot.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+>] [9] <Fresnel_diagram.png, id=340, 312.41719pt x 205.5178pt>
 File: Fresnel_diagram.png Graphic file (type png)
 
 <use Fresnel_diagram.png>
 Package pdftex.def Info: Fresnel_diagram.png used on input line 193.
 (pdftex.def)             Requested size: 289.07999pt x 190.16998pt.
 
-<double_slit_Fresnel_plot.pdf, id=344, 761.84625pt x 412.54124pt>
+<double_slit_Fresnel_plot.pdf, id=342, 761.84625pt x 412.54124pt>
 File: double_slit_Fresnel_plot.pdf Graphic file (type pdf)
 
 <use double_slit_Fresnel_plot.pdf>
@@ -428,7 +394,7 @@ Package pdftex.def Info: double_slit_Fresnel_plot.pdf used on input line 200.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<far_slit_Fresnel_plot.pdf, id=345, 711.65875pt x 381.425pt>
+<far_slit_Fresnel_plot.pdf, id=343, 711.65875pt x 381.425pt>
 File: far_slit_Fresnel_plot.pdf Graphic file (type pdf)
 
 <use far_slit_Fresnel_plot.pdf>
@@ -439,7 +405,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 208--209
  [][] 
  []
 
-<near_slit_Fresnel_plot.pdf, id=346, 711.65875pt x 381.425pt>
+<near_slit_Fresnel_plot.pdf, id=344, 711.65875pt x 381.425pt>
 File: near_slit_Fresnel_plot.pdf Graphic file (type pdf)
 
 <use near_slit_Fresnel_plot.pdf>
@@ -455,7 +421,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 225.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
@@ -464,46 +430,51 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <./Fresnel_diagram.png>] [11 <./double_slit_Fresnel_plot.pdf> <./far_slit_F
-resnel_plot.pdf
+[10 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/Fresnel_diagram
+.png>] [11 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/double_s
+lit_Fresnel_plot.pdf> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Pap
+er/far_slit_Fresnel_plot.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./far_slit_Fresnel_plot.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
-> <./near_slit_Fresnel_plot.pdf
+pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
+terferenceLab/Paper/far_slit_Fresnel_plot.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/near_slit_Fresnel
+_plot.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_Fresnel_plot.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
+terferenceLab/Paper/near_slit_Fresnel_plot.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
 >] [12] [13]
 No file Photon_Interference.bbl.
-[14] (./Photon_Interference.aux) ) 
+[14]
+(C:\Users\Liza\Documents\GitHub\PhotonInterferenceLab\Paper\Photon_Interference
+.aux) ) 
 Here is how much of TeX's memory you used:
- 4396 strings out of 493117
- 59598 string characters out of 6135433
- 137521 words of memory out of 5000000
- 7784 multiletter control sequences out of 15000+600000
- 11844 words of font info for 46 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,9n,30p,1663b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb>
-Output written on Photon_Interference.pdf (14 pages, 724895 bytes).
+ 4041 strings out of 493921
+ 53300 string characters out of 3144880
+ 123524 words of memory out of 3000000
+ 7291 multiletter control sequences out of 15000+200000
+ 11844 words of font info for 46 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,9n,30p,2103b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Photon_Interference.pdf (14 pages, 763734 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
+ 470 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

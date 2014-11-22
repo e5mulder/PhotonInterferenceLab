@@ -142,7 +142,7 @@ We fit our data to the Fraunhofer model by plotting our entire data set against 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=6in]{double_slit_Fraunhofer_plot.pdf}
-\caption{Our data for the double slit pattern.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
+\caption{Our data for the double slit pattern with Fraunhofer fit on top.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
 \label{double_slit_Fraunhofer_plot}
 \end{figure}
 
@@ -198,7 +198,7 @@ The parameters have the same meanings as in the Fraunhofer model, with the addit
 \begin{figure}[h!]
 \centering
 \includegraphics[width=6in]{double_slit_Fresnel_plot.pdf}
-\caption{Our data for the double slit pattern.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
+\caption{Our data for the double slit pattern with Fresnel fit on top.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
 \label{double_slit_Fresnel_plot}
 \end{figure}
 
@@ -211,9 +211,9 @@ The parameters have the same meanings as in the Fraunhofer model, with the addit
 \begin{minipage}[b]{0.45\linewidth}
 	\includegraphics[width=3in]{near_slit_Fresnel_plot.pdf}
 \end{minipage}
-\caption{Our data for the single slit patterns with the Fraunhofer formula on top. The parameters we used are in Table ~\ref{parameters}. Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
+\caption{Our data for the single slit patterns with the Fresnel formula on top. The parameters we used are in Table ~\ref{parameters}. Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
 \label{single_slits_Fresnel_plot}
-\end{figure}
+\end{figure} 
 
 After fitting our data, we computed the reduced chi-square value for each fit (see Table ~\ref{chi-square}).  All few of the values were very large.  By examining the distance of individual points from the fit, however, we realized that the majority actually had small deviations from the line, with a few outliers which weighted the fit.  Even so, from the graphs it is clear that no single set of parameter values allows all the fits to match the data.  We optimized our parameters for the Fraunhofer double-slit fit - as these parameter values were within the uncertainty of what we knew they should be, we kept these parameters.  However, the other fits each had some sort of systematic offset from the line.  
 
@@ -237,7 +237,7 @@ After fitting our data, we computed the reduced chi-square value for each fit (s
 
 \section{Discussion}
 
-Our biggest question with this experiment was why, while we obtained clear data of the interference patterns, these results deviated from the theoretical models, sometimes by a great amount.  In particular the Fresnel model could not be made to fit our data very well, even with the best estimations of our parameters, but considering that we were far from the regime of the Fresnel model, we did not find this to be too strange. In addition, we observed that the Fresnel model fit very well at the very edges of our pattern:  it was able to follow the subtle bumps and wiggles of that region.  The Fraunhofer model did better in the middle- around the more defined light and dark fringes.  The Fresnel model does not fit the inner light and dark fringes at all.  It fits the most central bright fringe, and then is offset from the rest of the bright fringes (the pattern has too small a distance from bright fringe to bright fringe).  We are not exactly sure why this is so, but we have a few speculations.    The Fraunhofer model is designed to take advantage of the wave nature of light, and is not equipped to handle any 'edge effects' resulting due to the finite nature of the detector slit.  The Fresnel model, on the other hand, is a sum over all paths from the source to the detector, and is more equipped to take into account imperfect paths and imperfections around the edges of the pattern.   However, we were far off from the Fresnel regime and close to the Fraunhofer regime, so that might explain how the Fraunhofer model fit very well our central interference pattern and Fresnel did not.  \cite{teachspin}
+Our biggest question with this experiment was why, while we obtained clear data of the interference patterns, these results deviated from the theoretical models, sometimes by a great amount.  In particular the Fresnel model could not be made to fit our data very well, even with the best estimations of our parameters, but considering that we were far from the regime of the Fresnel model, we did not find this to be too strange. In addition, we observed that the Fresnel model fit very well at the very edges of our pattern:  it was able to follow the subtle bumps and wiggles of that region.  The Fresnel model also replicated the "wavy offset" of our minima, while the Fraunhofer model had each minima come down to zero.  This offset was several times too large to be attributed to our background noise, so it is likely due to some characteristics of the Fresnel model which the Fraunhofer model approximated away.  The Fraunhofer model did better in the middle- around the more defined light and dark fringes.  The Fresnel model does not fit the inner light and dark fringes at all.  It fits the most central bright fringe, and then is offset from the rest of the bright fringes (the fit peaks are too narrow, and so there are more in the same space).  We are not exactly sure why this is so, but we have a few speculations.    The Fraunhofer model is designed to take advantage of the wave nature of light, and is not equipped to handle any 'edge effects' resulting due to the finite nature of the detector slit.  The Fresnel model, on the other hand, is a sum over all paths from the source to the detector, and is more equipped to take into account imperfect paths and imperfections around the edges of the pattern.   However, we were far off from the Fresnel regime and close to the Fraunhofer regime, so that might explain how the Fraunhofer model fit very well our central interference pattern and Fresnel did not - overall, our graphs and reduced chi-square values agree better with the Fraunhofer model than with the Fresnel model.  \cite{teachspin}
 
 In order to gauge better the fits of the models to the experimental data, we would want to repeat this experiment using smaller incremental turns of the micrometer.  There are large gaps in our plotted fits that could be closed with tighter measurements.  We possibly would want to turn the micrometer by .05 mm instead of .1 mm increments.  We would also want to more precisely measure ourselves the parameters that went into our Fraunhofer and Fresnel fits:  slit width (a), slit separation (d), and the distances from the different slits to the detector slit ($D_{1} and D_{2}$), rather than relying on the uncertain reported values from the Two-Slit Interference, One Photon at a Time manual.  We could also gauge some error estimates for these values and propagate them, in our fits, so our fits would themselves have an error range.
 
