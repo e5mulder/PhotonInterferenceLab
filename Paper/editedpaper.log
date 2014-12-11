@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 NOV 2014 01:29
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.9)  21 NOV 2014 22:39
->>>>>>> FETCH_HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  10 DEC 2014 21:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Photon_Interference.tex
-(./Photon_Interference.tex
+**editedpaper.tex
+(./editedpaper.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revtex4-1.cls
@@ -228,7 +224,7 @@ Package color Info: Driver file: pdftex.def on input line 137.
 Package: ulem 2012/05/18
 \ULdepth=\dimen115
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen116
 )
 Class revtex4-1 Info: Patching LaTeX tabular. on input line 11.
@@ -238,27 +234,9 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 11.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 11.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 11.
 
-<<<<<<< HEAD
-(./Photon_Interference.aux)
-\openout1 = `Photon_Interference.aux'.
+(./editedpaper.aux)
+\openout1 = `editedpaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
-=======
-(C:\Users\Liza\Documents\GitHub\PhotonInterferenceLab\Paper\Photon_Interference
-.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -271,8 +249,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
->>>>>>> FETCH_HEAD
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen117
@@ -297,7 +275,6 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-<<<<<<< HEAD
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -334,264 +311,200 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\openout3 = `Photon_InterferenceNotes.bib'.
+\openout3 = `editedpaperNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
-=======
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
->>>>>>> FETCH_HEAD
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-<<<<<<< HEAD
-) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<set-up.pdf, id=11, 793.99933pt x 269.84413pt>
+) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+<set-up.pdf, id=16, 793.99933pt x 269.84413pt>
 File: set-up.pdf Graphic file (type pdf)
  <use set-up.pdf>
-Package pdftex.def Info: set-up.pdf used on input line 62.
+Package pdftex.def Info: set-up.pdf used on input line 61.
 (pdftex.def)             Requested size: 433.62pt x 147.36888pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<fresnel_diagram.png, id=12, 312.41719pt x 205.5178pt>
-File: fresnel_diagram.png Graphic file (type png)
-
-<use fresnel_diagram.png>
-Package pdftex.def Info: fresnel_diagram.png used on input line 79.
-(pdftex.def)             Requested size: 433.62pt x 285.25497pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2] [3 <./set-up.pdf> <./fresnel_diagram.png>]
-No file Photon_Interference.bbl.
-[4] (./Photon_Interference.aux)
-=======
-) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
-<set-up.pdf, id=23, 793.99933pt x 269.84413pt>
-File: set-up.pdf Graphic file (type pdf)
- <use set-up.pdf>
-Package pdftex.def Info: set-up.pdf used on input line 71.
-(pdftex.def)             Requested size: 433.62pt x 147.36888pt.
-
-<double_slit_plot.pdf, id=24, 698.61pt x 373.395pt>
+ [3 <./set-up.pdf>] [4] [5] <double_slit_plot.pdf, id=198, 698.61pt x 373.395pt
+>
 File: double_slit_plot.pdf Graphic file (type pdf)
- <use double_slit_plot.pdf>
-Package pdftex.def Info: double_slit_plot.pdf used on input line 82.
+
+<use double_slit_plot.pdf>
+Package pdftex.def Info: double_slit_plot.pdf used on input line 85.
 (pdftex.def)             Requested size: 433.62pt x 231.76459pt.
-
->>>>>>> FETCH_HEAD
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<far_slit_plot.pdf, id=25, 698.61pt x 373.395pt>
+ <far_slit_plot.pdf, id=199, 698.61pt x 373.395pt>
 File: far_slit_plot.pdf Graphic file (type pdf)
- <use far_slit_plot.pdf>
-Package pdftex.def Info: far_slit_plot.pdf used on input line 90.
+
+<use far_slit_plot.pdf>
+Package pdftex.def Info: far_slit_plot.pdf used on input line 93.
 (pdftex.def)             Requested size: 216.81pt x 115.8823pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 90--91
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 93--94
  [][] 
  []
 
-<near_slit_plot.pdf, id=26, 698.61pt x 373.395pt>
+<near_slit_plot.pdf, id=200, 698.61pt x 373.395pt>
 File: near_slit_plot.pdf Graphic file (type pdf)
  <use near_slit_plot.pdf>
-Package pdftex.def Info: near_slit_plot.pdf used on input line 94.
+Package pdftex.def Info: near_slit_plot.pdf used on input line 97.
 (pdftex.def)             Requested size: 216.81pt x 115.8823pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 94--95
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/set-up.pdf>]
-[6 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/double_slit_plot
-.pdf> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/far_slit_plot
-.pdf
+[6 <./double_slit_plot.pdf>] [7 <./far_slit_plot.pdf> <./near_slit_plot.pdf
 
-pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
-terferenceLab/Paper/far_slit_plot.pdf): PDF inclusion: multiple pdfs with page 
-group included in a single page
-> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/near_slit_plot.pd
-f
-
-pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
-terferenceLab/Paper/near_slit_plot.pdf): PDF inclusion: multiple pdfs with page
- group included in a single page
->] [7] <far_slit_Fraunhofer_plot.pdf, id=266, 698.61pt x 373.395pt>
+pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_plot.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>] <far_slit_Fraunhofer_plot.pdf, id=272, 698.61pt x 373.395pt>
 File: far_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use far_slit_Fraunhofer_plot.pdf>
-Package pdftex.def Info: far_slit_Fraunhofer_plot.pdf used on input line 132.
+Package pdftex.def Info: far_slit_Fraunhofer_plot.pdf used on input line 135.
 (pdftex.def)             Requested size: 216.81pt x 115.8823pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 132--133
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 135--136
  [][] 
  []
 
-<near_slit_Fraunhofer_plot.pdf, id=267, 698.61pt x 373.395pt>
+<near_slit_Fraunhofer_plot.pdf, id=273, 698.61pt x 373.395pt>
 File: near_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use near_slit_Fraunhofer_plot.pdf>
-Package pdftex.def Info: near_slit_Fraunhofer_plot.pdf used on input line 136.
+Package pdftex.def Info: near_slit_Fraunhofer_plot.pdf used on input line 139.
 (pdftex.def)             Requested size: 216.81pt x 115.8823pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 136--137
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 139--140
  [][] 
  []
 
-<double_slit_Fraunhofer_plot.pdf, id=268, 698.61pt x 373.395pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<double_slit_Fraunhofer_plot.pdf, id=274, 698.61pt x 373.395pt>
 File: double_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use double_slit_Fraunhofer_plot.pdf>
-Package pdftex.def Info: double_slit_Fraunhofer_plot.pdf used on input line 144
+Package pdftex.def Info: double_slit_Fraunhofer_plot.pdf used on input line 147
 .
 (pdftex.def)             Requested size: 433.62pt x 231.76459pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/far_slit_Fraunho
-fer_plot.pdf> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/near_
-slit_Fraunhofer_plot.pdf
 
-pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
-terferenceLab/Paper/near_slit_Fraunhofer_plot.pdf): PDF inclusion: multiple pdf
-s with page group included in a single page
-> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/double_slit_Fraun
-hofer_plot.pdf
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
-terferenceLab/Paper/double_slit_Fraunhofer_plot.pdf): PDF inclusion: multiple p
-dfs with page group included in a single page
->] [9] <Fresnel_diagram.png, id=340, 312.41719pt x 205.5178pt>
+[8] [9 <./far_slit_Fraunhofer_plot.pdf> <./near_slit_Fraunhofer_plot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_Fraunhofer_plot.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+> <./double_slit_Fraunhofer_plot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./double_slit_Fraunhofer_plot.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>] [10] <Fresnel_diagram.png, id=346, 312.41719pt x 205.5178pt>
 File: Fresnel_diagram.png Graphic file (type png)
 
 <use Fresnel_diagram.png>
-Package pdftex.def Info: Fresnel_diagram.png used on input line 193.
+Package pdftex.def Info: Fresnel_diagram.png used on input line 214.
 (pdftex.def)             Requested size: 289.07999pt x 190.16998pt.
 
-<double_slit_Fresnel_plot.pdf, id=342, 761.84625pt x 412.54124pt>
+<double_slit_Fresnel_plot.pdf, id=348, 761.84625pt x 412.54124pt>
 File: double_slit_Fresnel_plot.pdf Graphic file (type pdf)
 
 <use double_slit_Fresnel_plot.pdf>
-Package pdftex.def Info: double_slit_Fresnel_plot.pdf used on input line 200.
+Package pdftex.def Info: double_slit_Fresnel_plot.pdf used on input line 221.
 (pdftex.def)             Requested size: 433.62pt x 234.80473pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<far_slit_Fresnel_plot.pdf, id=343, 711.65875pt x 381.425pt>
+<far_slit_Fresnel_plot.pdf, id=349, 711.65875pt x 381.425pt>
 File: far_slit_Fresnel_plot.pdf Graphic file (type pdf)
 
 <use far_slit_Fresnel_plot.pdf>
-Package pdftex.def Info: far_slit_Fresnel_plot.pdf used on input line 208.
+Package pdftex.def Info: far_slit_Fresnel_plot.pdf used on input line 229.
 (pdftex.def)             Requested size: 216.81pt x 116.19768pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 208--209
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 229--230
  [][] 
  []
 
-<near_slit_Fresnel_plot.pdf, id=344, 711.65875pt x 381.425pt>
+<near_slit_Fresnel_plot.pdf, id=350, 711.65875pt x 381.425pt>
 File: near_slit_Fresnel_plot.pdf Graphic file (type pdf)
 
 <use near_slit_Fresnel_plot.pdf>
-Package pdftex.def Info: near_slit_Fresnel_plot.pdf used on input line 212.
+Package pdftex.def Info: near_slit_Fresnel_plot.pdf used on input line 233.
 (pdftex.def)             Requested size: 216.81pt x 116.19768pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 212--213
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 233--234
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 225.
+[11 <./Fresnel_diagram.png>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 246.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 225.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 246.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/Fresnel_diagram
-.png>] [11 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/double_s
-lit_Fresnel_plot.pdf> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Pap
-er/far_slit_Fresnel_plot.pdf
+[12 <./double_slit_Fresnel_plot.pdf> <./far_slit_Fresnel_plot.pdf
 
-pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
-terferenceLab/Paper/far_slit_Fresnel_plot.pdf): PDF inclusion: multiple pdfs wi
-th page group included in a single page
-> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/near_slit_Fresnel
-_plot.pdf
+pdfTeX warning: /usr/texbin/pdflatex (file ./far_slit_Fresnel_plot.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./near_slit_Fresnel_plot.pdf
 
-pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
-terferenceLab/Paper/near_slit_Fresnel_plot.pdf): PDF inclusion: multiple pdfs w
-ith page group included in a single page
->] [12] [13]
-No file Photon_Interference.bbl.
-[14]
-(C:\Users\Liza\Documents\GitHub\PhotonInterferenceLab\Paper\Photon_Interference
-.aux) ) 
+pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_Fresnel_plot.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [13] [14] [15]
+No file editedpaper.bbl.
+[16] (./editedpaper.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 4284 strings out of 493117
- 57141 string characters out of 6135433
- 132085 words of memory out of 5000000
- 7688 multiletter control sequences out of 15000+600000
+ 4397 strings out of 493117
+ 59528 string characters out of 6135433
+ 140522 words of memory out of 5000000
+ 7785 multiletter control sequences out of 15000+600000
  11844 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,30p,1212b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Photon_Interference.pdf (4 pages, 272167 bytes).
+ 38i,9n,30p,1681b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+>
+Output written on editedpaper.pdf (16 pages, 738854 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
-=======
- 4041 strings out of 493921
- 53300 string characters out of 3144880
- 123524 words of memory out of 3000000
- 7291 multiletter control sequences out of 15000+200000
- 11844 words of font info for 46 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 36i,9n,30p,2103b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Photon_Interference.pdf (14 pages, 763734 bytes).
-PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
->>>>>>> FETCH_HEAD
+ 482 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
