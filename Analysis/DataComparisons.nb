@@ -33,66 +33,66 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"AppendTo", "[", 
    RowBox[{"$Path", ",", "\"\<Desktop/PhotonInterferenceLab/Analysis\>\""}], 
-   "]"}], ";"}], "\[IndentingNewLine]", 
+   "]"}], ";"}], "", 
  RowBox[{
   RowBox[{"AppendTo", "[", 
    RowBox[{
    "$Path", ",", 
     "\"\</Users/emulder/GitHub/PhotonInterferenceLab/Analysis\>\""}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"AppendTo", "[", 
    RowBox[{
    "$Path", ",", "\"\</Users/iliparti/PhotonInterferenceLab/Analysis\>\""}], 
-   "]"}], ";"}], "\[IndentingNewLine]", 
+   "]"}], ";"}], "", 
  RowBox[{
   RowBox[{"data2Slit", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<4.45mmAll.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataFarSlit", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<4mmAll.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataNearSlit", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<5.9mmAll.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"data2SlitAvg", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<4.45mmAvg.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataFarSlitAvg", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<4mmAvg.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataNearSlitAvg", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<5.9mmAvg.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"data2SlitErr", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<4.45mmError.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataFarSlitErr", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<4mmError.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataNearSlitErr", " ", "=", " ", 
    RowBox[{"Import", "[", "\"\<5.9mmError.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataDouble", "=", 
    RowBox[{"Import", "[", "\"\<just_values_double.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataNear", "=", 
    RowBox[{"Import", "[", "\"\<just_values_near.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataFar", "=", 
    RowBox[{"Import", "[", "\"\<just_values_far.csv\>\"", "]"}]}], 
-  ";"}], "\[IndentingNewLine]"}], "Input",
+  ";"}], ""}], "Input",
  CellChangeTimes->{{3.62524121244139*^9, 3.62524137513122*^9}, {
   3.625315699857588*^9, 3.625315727354404*^9}, {3.6253175768202057`*^9, 
   3.6253175887710867`*^9}, {3.6253339281051283`*^9, 3.625333933204995*^9}, {
@@ -150,23 +150,23 @@ Cell[BoxData[{
             RowBox[{"(", 
              RowBox[{"x", "-", "x0"}], ")"}], "/", "D2"}], "]"}], "/", 
           "lambda"}]}], "]"}], "^", "2"}], ")"}]}], "+", "c"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
-  RowBox[{"I0", " ", "=", " ", "4400"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"I0", " ", "=", " ", "4400"}], ";"}], "", 
  RowBox[{
-  RowBox[{"a", " ", "=", " ", "0.085"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"a", " ", "=", " ", "0.085"}], ";"}], "", 
  RowBox[{
-  RowBox[{"d", " ", "=", " ", "0.406"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"d", " ", "=", " ", "0.406"}], ";"}], "", 
  RowBox[{
-  RowBox[{"lambda", " ", "=", " ", "0.000555"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"lambda", " ", "=", " ", "0.000555"}], ";"}], "", 
  RowBox[{
-  RowBox[{"x0", " ", "=", " ", "3.95"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"x0", " ", "=", " ", "3.95"}], ";"}], "", 
  RowBox[{
-  RowBox[{"c", " ", "=", " ", "3.6"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"c", " ", "=", " ", "3.6"}], ";"}], "", 
  RowBox[{
-  RowBox[{"D1", "=", "338"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"D1", "=", "338"}], ";"}], "", 
  RowBox[{
-  RowBox[{"D2", "=", "500"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"D2", "=", "500"}], ";"}], "", 
  RowBox[{
   RowBox[{"fit", " ", "=", " ", 
    RowBox[{"Plot", "[", 
@@ -174,21 +174,21 @@ Cell[BoxData[{
      RowBox[{"g", "[", "x", "]"}], ",", 
      RowBox[{"{", 
       RowBox[{"x", ",", "0", ",", "8"}], "}"}], ",", 
-     RowBox[{"PlotStyle", "\[Rule]", "Green"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+     RowBox[{"PlotStyle", "->", "Green"}]}], "]"}]}], 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataPlot2Slit", " ", "=", 
    RowBox[{"ListPlot", "[", 
     RowBox[{"data2Slit", ",", 
-     RowBox[{"PlotMarkers", "\[Rule]", 
+     RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{"Automatic", ",", "8"}], "}"}]}], ",", 
-     RowBox[{"PlotStyle", "\[Rule]", "Red"}], ",", 
-     RowBox[{"AxesLabel", "\[Rule]", 
+     RowBox[{"PlotStyle", "->", "Red"}], ",", 
+     RowBox[{"AxesLabel", "->", 
       RowBox[{"{", 
        RowBox[{
        "\"\<Micrometer Setting (mm)\>\"", ",", "\"\<Photon Counts\>\""}], 
-       "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+       "}"}]}]}], "]"}]}], ";"}], "", 
  RowBox[{
   RowBox[{"dataPlot2SlitAvg", "=", 
    RowBox[{"ErrorListPlot", "[", 
@@ -205,11 +205,11 @@ Cell[BoxData[{
            RowBox[{"[", "i", "]"}], "]"}]}], "]"}]}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"i", ",", "81"}], "}"}]}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"Show", "[", 
    RowBox[{"dataPlot2SlitAvg", ",", "dataPlot2Slit", ",", "fit"}], "]"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+  ""}], "", 
  RowBox[{
   RowBox[{
    RowBox[{"h", "[", "x_", "]"}], ":=", 
@@ -236,9 +236,9 @@ Cell[BoxData[{
                RowBox[{"(", 
                 RowBox[{"x", "-", "x1"}], ")"}], "/", "D2"}], "]"}]}], 
             ")"}]}], ")"}]}], ")"}], "^", "2"}], ")"}]}], "+", "c"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
-  RowBox[{"x1", " ", "=", " ", "3.45"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"x1", " ", "=", " ", "3.45"}], ";"}], "", 
  RowBox[{
   RowBox[{"fit2", " ", "=", " ", 
    RowBox[{"Plot", "[", 
@@ -246,22 +246,22 @@ Cell[BoxData[{
      RowBox[{"h", "[", "x", "]"}], ",", 
      RowBox[{"{", 
       RowBox[{"x", ",", "0", ",", "8"}], "}"}], ",", 
-     RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-     RowBox[{"PlotStyle", "\[Rule]", "Green"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+     RowBox[{"PlotRange", "->", "All"}], ",", 
+     RowBox[{"PlotStyle", "->", "Green"}]}], "]"}]}], 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataPlotFarSlit", " ", "=", " ", 
    RowBox[{"ListPlot", "[", 
     RowBox[{"dataFarSlit", ",", 
-     RowBox[{"PlotMarkers", "\[Rule]", 
+     RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{"Automatic", ",", "8"}], "}"}]}], ",", 
-     RowBox[{"PlotStyle", "\[Rule]", "Red"}], ",", 
-     RowBox[{"AxesLabel", "\[Rule]", 
+     RowBox[{"PlotStyle", "->", "Red"}], ",", 
+     RowBox[{"AxesLabel", "->", 
       RowBox[{"{", 
        RowBox[{
        "\"\<Micrometer Setting (mm)\>\"", ",", "\"\<Photon Counts\>\""}], 
-       "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+       "}"}]}]}], "]"}]}], ";"}], "", 
  RowBox[{
   RowBox[{"dataPlotFarSlitAvg", "=", 
    RowBox[{"ErrorListPlot", "[", 
@@ -278,11 +278,11 @@ Cell[BoxData[{
            RowBox[{"[", "i", "]"}], "]"}]}], "]"}]}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"i", ",", "81"}], "}"}]}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"Show", "[", 
    RowBox[{"dataPlotFarSlitAvg", ",", "dataPlotFarSlit", ",", "fit2"}], "]"}],
-   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+   ""}], "", 
  RowBox[{
   RowBox[{
    RowBox[{"k", "[", "x_", "]"}], ":=", 
@@ -309,9 +309,9 @@ Cell[BoxData[{
                RowBox[{"(", 
                 RowBox[{"x", "-", "x2"}], ")"}], "/", "D2"}], "]"}]}], 
             ")"}]}], ")"}]}], ")"}], "^", "2"}], ")"}]}], "+", "c"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
-  RowBox[{"x2", " ", "=", " ", "4.45"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"x2", " ", "=", " ", "4.45"}], ";"}], "", 
  RowBox[{
   RowBox[{"fit3", " ", "=", " ", 
    RowBox[{"Plot", "[", 
@@ -319,22 +319,22 @@ Cell[BoxData[{
      RowBox[{"k", "[", "x", "]"}], ",", 
      RowBox[{"{", 
       RowBox[{"x", ",", "0", ",", "8"}], "}"}], ",", 
-     RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-     RowBox[{"PlotStyle", "\[Rule]", "Green"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+     RowBox[{"PlotRange", "->", "All"}], ",", 
+     RowBox[{"PlotStyle", "->", "Green"}]}], "]"}]}], 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataPlotNearSlit", " ", "=", " ", 
    RowBox[{"ListPlot", "[", 
     RowBox[{"dataNearSlit", ",", 
-     RowBox[{"PlotMarkers", "\[Rule]", 
+     RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{"Automatic", ",", "8"}], "}"}]}], ",", 
-     RowBox[{"PlotStyle", "\[Rule]", "Red"}], ",", 
-     RowBox[{"AxesLabel", "\[Rule]", 
+     RowBox[{"PlotStyle", "->", "Red"}], ",", 
+     RowBox[{"AxesLabel", "->", 
       RowBox[{"{", 
        RowBox[{
        "\"\<Micrometer Setting (mm)\>\"", ",", "\"\<Photon Counts\>\""}], 
-       "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+       "}"}]}]}], "]"}]}], ";"}], "", 
  RowBox[{
   RowBox[{"dataPlotNearSlitAvg", " ", "=", " ", 
    RowBox[{"ErrorListPlot", "[", 
@@ -351,11 +351,11 @@ Cell[BoxData[{
            RowBox[{"[", "i", "]"}], "]"}]}], "]"}]}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"i", ",", "81"}], "}"}]}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"Show", "[", 
    RowBox[{"dataPlotNearSlitAvg", ",", "dataPlotNearSlit", ",", "fit3"}], 
-   "]"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]"}], "Input",
+   "]"}], ""}], ""}], "Input",
  CellChangeTimes->{{3.624725921317959*^9, 3.624726099463982*^9}, {
    3.6247261320544233`*^9, 3.624726141511196*^9}, {3.6247261864225492`*^9, 
    3.624726336164133*^9}, {3.624726399792861*^9, 3.624726591217132*^9}, {
@@ -411,7 +411,7 @@ Cell[BoxData[
  GraphicsBox[{{{}, {
      {RGBColor[1, 0, 0], PointSize[0.01388888888888889], AbsoluteThickness[
       1.6], GeometricTransformationBox[InsetBox[
-        StyleBox["\<\"\[FilledCircle]\"\>",
+        StyleBox["\<\"●\"\>",
          StripOnInput->False,
          FontSize->8], {0., 0.}], CompressedData["
 1:eJyF1m9oVXUcx/Hjn+pma93U/pnVTXywBxJj68GMwoNbMmuM2xgmZnUazs21
@@ -2198,11 +2198,10 @@ dw==
   Axes->{True, True},
   AxesLabel->{
     FormBox["\"Micrometer Setting (mm)\"", TraditionalForm], 
-    FormBox["\"Photon Counts\"", TraditionalForm]},
-         Offset[{-1.5, 0}, {8., 1.5075914750000001`}]}]}}}, {}}, {{}, {
+    FormBox["\"Photon Counts\"", TraditionalForm]},Offset[{-1.5, 0}, {8., 1.5075914750000001`}]}]}}},{}},{{},{
      {RGBColor[1, 0, 0], PointSize[0.01388888888888889], AbsoluteThickness[
       1.6], GeometricTransformationBox[InsetBox[
-        StyleBox["\<\"\[FilledCircle]\"\>",
+        StyleBox["\<\"●\"\>",
          StripOnInput->False,
          FontSize->8], {0., 0.}], CompressedData["
 1:eJyF1m9oVXUcx/Hjn+pma93U/pnVTXywBxJj68GMwoNbMmuM2xgmZnUazs21
@@ -2922,7 +2921,7 @@ Cell[BoxData[
  GraphicsBox[{{{}, {
      {RGBColor[1, 0, 0], PointSize[0.01388888888888889], AbsoluteThickness[
       1.6], GeometricTransformationBox[InsetBox[
-        StyleBox["\<\"\[FilledCircle]\"\>",
+        StyleBox["\<\"●\"\>",
          StripOnInput->False,
          FontSize->8], {0., 0.}], CompressedData["
 1:eJyF1k1IFGEcBvC37GP7nspqK6tNJBYJsVTy5mgdwghMoiyopjCzwto+TA21
@@ -4180,7 +4179,7 @@ JZ4aYtA733/n33WB
          Offset[{-1.5, 0}, {8., 6.2749495369999995`}]}]}}}, {}}, {{}, {
      {RGBColor[1, 0, 0], PointSize[0.01388888888888889], AbsoluteThickness[
       1.6], GeometricTransformationBox[InsetBox[
-        StyleBox["\<\"\[FilledCircle]\"\>",
+        StyleBox["\<\"●\"\>",
          StripOnInput->False,
          FontSize->8], {0., 0.}], CompressedData["
 1:eJyF1k1IFGEcBvC37GP7nspqK6tNJBYJsVTy5mgdwghMoiyopjCzwto+TA21
@@ -5472,7 +5471,7 @@ bM/5V3zqGE+zc84=
          Offset[{-1.5, 0}, {8., 2.509753101}]}]}}}, {}}, {{}, {
      {RGBColor[1, 0, 0], PointSize[0.01388888888888889], AbsoluteThickness[
       1.6], GeometricTransformationBox[InsetBox[
-        StyleBox["\<\"\[FilledCircle]\"\>",
+        StyleBox["\<\"●\"\>",
          StripOnInput->False,
          FontSize->8], {0., 0.}], CompressedData["
 1:eJyl10uIW1Ucx/HT1kd8R40adayxlDIMXYyvUq2PM46NGUUNFYtvUm01VmnH
@@ -5757,25 +5756,25 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"slit1", "[", "z_", "]"}], ":=", 
   RowBox[{
-   SuperscriptBox["\[ExponentialE]", 
+   SuperscriptBox["E", 
     FractionBox[
-     RowBox[{"2", "*", "\[Pi]", "*", "I", "*", "D1"}], "lambda"]], "*", 
-   SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"2", "*", "π", "*", "I", "*", "D1"}], "lambda"]], "*", 
+   SuperscriptBox["E", 
     FractionBox[
-     RowBox[{"2", "*", "\[Pi]", "*", "I", "*", "D2"}], "lambda"]], "*", 
+     RowBox[{"2", "*", "π", "*", "I", "*", "D2"}], "lambda"]], "*", 
    RowBox[{"Integrate", "[", 
     RowBox[{
      RowBox[{
-      SuperscriptBox["\[ExponentialE]", 
+      SuperscriptBox["E", 
        FractionBox[
-        RowBox[{"\[Pi]", "*", "I", "*", 
+        RowBox[{"π", "*", "I", "*", 
          SuperscriptBox[
           RowBox[{"(", 
            RowBox[{"x0", "-", "y"}], ")"}], "2"]}], 
         RowBox[{"D1", "*", "lambda"}]]], "*", 
-      SuperscriptBox["\[ExponentialE]", 
+      SuperscriptBox["E", 
        FractionBox[
-        RowBox[{"\[Pi]", "*", "I", "*", 
+        RowBox[{"π", "*", "I", "*", 
          SuperscriptBox[
           RowBox[{"(", 
            RowBox[{"y", "-", "z"}], ")"}], "2"]}], 
@@ -5788,7 +5787,7 @@ Cell[BoxData[{
        RowBox[{"x0", "+", 
         RowBox[{"(", 
          RowBox[{"d", "/", "2"}], ")"}], "+", "a"}]}], "}"}]}], 
-    "]"}]}]}], "\[IndentingNewLine]", 
+    "]"}]}]}], "", 
  RowBox[{
   RowBox[{"s1", "[", "z_", "]"}], ":=", 
   RowBox[{"42.044", "*", "I0", "*", 
@@ -5797,29 +5796,29 @@ Cell[BoxData[{
      RowBox[{"slit1", "[", "z", "]"}], "*", 
      RowBox[{"Conjugate", "[", 
       RowBox[{"slit1", "[", "z", "]"}], "]"}]}], 
-    "]"}]}]}], "\[IndentingNewLine]", 
+    "]"}]}]}], "", 
  RowBox[{
   RowBox[{"slit2", "[", "z_", "]"}], ":=", 
   RowBox[{
-   SuperscriptBox["\[ExponentialE]", 
+   SuperscriptBox["E", 
     FractionBox[
-     RowBox[{"2", "*", "\[Pi]", "*", "I", "*", "D1"}], "lambda"]], "*", 
-   SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"2", "*", "π", "*", "I", "*", "D1"}], "lambda"]], "*", 
+   SuperscriptBox["E", 
     FractionBox[
-     RowBox[{"2", "*", "\[Pi]", "*", "I", "*", "D2"}], "lambda"]], "*", 
+     RowBox[{"2", "*", "π", "*", "I", "*", "D2"}], "lambda"]], "*", 
    RowBox[{"Integrate", "[", 
     RowBox[{
      RowBox[{
-      SuperscriptBox["\[ExponentialE]", 
+      SuperscriptBox["E", 
        FractionBox[
-        RowBox[{"\[Pi]", "*", "I", "*", 
+        RowBox[{"π", "*", "I", "*", 
          SuperscriptBox[
           RowBox[{"(", 
            RowBox[{"x0", "-", "y"}], ")"}], "2"]}], 
         RowBox[{"D1", "*", "lambda"}]]], "*", 
-      SuperscriptBox["\[ExponentialE]", 
+      SuperscriptBox["E", 
        FractionBox[
-        RowBox[{"\[Pi]", "*", "I", "*", 
+        RowBox[{"π", "*", "I", "*", 
          SuperscriptBox[
           RowBox[{"(", 
            RowBox[{"y", "-", "z"}], ")"}], "2"]}], 
@@ -5832,7 +5831,7 @@ Cell[BoxData[{
        RowBox[{"x0", "-", 
         RowBox[{"(", 
          RowBox[{"d", "/", "2"}], ")"}]}]}], "}"}]}], 
-    "]"}]}]}], "\[IndentingNewLine]", 
+    "]"}]}]}], "", 
  RowBox[{
   RowBox[{"s2", "[", "z_", "]"}], ":=", 
   RowBox[{"42.044", "*", "I0", "*", 
@@ -5841,7 +5840,7 @@ Cell[BoxData[{
      RowBox[{"slit2", "[", "z", "]"}], "*", 
      RowBox[{"Conjugate", "[", 
       RowBox[{"slit2", "[", "z", "]"}], "]"}]}], 
-    "]"}]}]}], "\[IndentingNewLine]", 
+    "]"}]}]}], "", 
  RowBox[{
   RowBox[{"fitb", "=", 
    RowBox[{"Plot", "[", 
@@ -5849,14 +5848,14 @@ Cell[BoxData[{
      RowBox[{"s1", "[", "z", "]"}], ",", 
      RowBox[{"{", 
       RowBox[{"z", ",", "0", ",", "8"}], "}"}], ",", 
-     RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-     RowBox[{"AxesLabel", "\[Rule]", 
+     RowBox[{"PlotRange", "->", "All"}], ",", 
+     RowBox[{"AxesLabel", "->", 
       RowBox[{"{", 
        RowBox[{
        "\"\<Micrometer Setting (mm)\>\"", ",", "\"\<Photon Counts\>\""}], 
        "}"}]}], ",", 
-     RowBox[{"PlotStyle", "\[Rule]", "Green"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+     RowBox[{"PlotStyle", "->", "Green"}]}], "]"}]}], 
+  ";"}], "", 
  RowBox[{
   RowBox[{"fitc", "=", 
    RowBox[{"Plot", "[", 
@@ -5864,25 +5863,25 @@ Cell[BoxData[{
      RowBox[{"s2", "[", "z", "]"}], ",", 
      RowBox[{"{", 
       RowBox[{"z", ",", "0", ",", "8"}], "}"}], ",", 
-     RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-     RowBox[{"AxesLabel", "\[Rule]", 
+     RowBox[{"PlotRange", "->", "All"}], ",", 
+     RowBox[{"AxesLabel", "->", 
       RowBox[{"{", 
        RowBox[{
        "\"\<Micrometer Setting (mm)\>\"", ",", "\"\<Photon Counts\>\""}], 
        "}"}]}], ",", 
-     RowBox[{"PlotStyle", "\[Rule]", "Green"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+     RowBox[{"PlotStyle", "->", "Green"}]}], "]"}]}], 
+  ";"}], "", 
  RowBox[{"Show", "[", 
   RowBox[{"dataPlotNearSlitAvg", ",", "dataPlotNearSlit", ",", "fitb", ",", 
    RowBox[{"PlotRange", "->", "All"}], ",", 
-   RowBox[{"AxesLabel", "\[Rule]", 
+   RowBox[{"AxesLabel", "->", 
     RowBox[{"{", 
      RowBox[{
      "\"\<Micrometer Setting (mm)\>\"", ",", "\"\<Photon Counts\>\""}], 
-     "}"}]}]}], "]"}], "\[IndentingNewLine]", 
+     "}"}]}]}], "]"}], "", 
  RowBox[{"Show", "[", 
   RowBox[{"dataPlotFarSlitAvg", ",", "dataPlotFarSlit", ",", " ", "fitc", ",", 
-   RowBox[{"AxesLabel", "\[Rule]", 
+   RowBox[{"AxesLabel", "->", 
     RowBox[{"{", 
      RowBox[{
      "\"\<Micrometer Setting (mm)\>\"", ",", "\"\<Photon Counts\>\""}], 
@@ -7119,7 +7118,7 @@ bM/5V3zqGE+zc84=
          Offset[{-1.5, 0}, {8., 2.509753101}]}]}}}, {}}, {{}, {
      {RGBColor[1, 0, 0], PointSize[0.01388888888888889], AbsoluteThickness[
       1.6], GeometricTransformationBox[InsetBox[
-        StyleBox["\<\"\[FilledCircle]\"\>",
+        StyleBox["\<\"●\"\>",
          StripOnInput->False,
          FontSize->8], {0., 0.}], CompressedData["
 1:eJyl10uIW1Ucx/HT1kd8R40adayxlDIMXYyvUq2PM46NGUUNFYtvUm01VmnH
@@ -8623,7 +8622,7 @@ JZ4aYtA733/n33WB
          Offset[{-1.5, 0}, {8., 6.2749495369999995`}]}]}}}, {}}, {{}, {
      {RGBColor[1, 0, 0], PointSize[0.01388888888888889], AbsoluteThickness[
       1.6], GeometricTransformationBox[InsetBox[
-        StyleBox["\<\"\[FilledCircle]\"\>",
+        StyleBox["\<\"●\"\>",
          StripOnInput->False,
          FontSize->8], {0., 0.}], CompressedData["
 1:eJyF1k1IFGEcBvC37GP7nspqK6tNJBYJsVTy5mgdwghMoiyopjCzwto+TA21
@@ -8909,7 +8908,7 @@ Cell[BoxData[{
   RowBox[{"slitdouble", "[", "z_", "]"}], ":=", 
   RowBox[{
    RowBox[{"slit1", "[", "z", "]"}], "+", 
-   RowBox[{"slit2", "[", "z", "]"}]}]}], "\[IndentingNewLine]", 
+   RowBox[{"slit2", "[", "z", "]"}]}]}], "", 
  RowBox[{
   RowBox[{"slit", "[", "z_", "]"}], ":=", 
   RowBox[{"42.044", "*", "I0", "*", 
@@ -8918,7 +8917,7 @@ Cell[BoxData[{
      RowBox[{"slitdouble", "[", "z", "]"}], "*", 
      RowBox[{"Conjugate", "[", 
       RowBox[{"slitdouble", "[", "z", "]"}], "]"}]}], 
-    "]"}]}]}], "\[IndentingNewLine]", 
+    "]"}]}]}], "", 
  RowBox[{
   RowBox[{"fita", "=", 
    RowBox[{"Plot", "[", 
@@ -8926,12 +8925,12 @@ Cell[BoxData[{
      RowBox[{"slit", "[", "z", "]"}], ",", 
      RowBox[{"{", 
       RowBox[{"z", ",", "0", ",", "8"}], "}"}], ",", 
-     RowBox[{"PlotStyle", "\[Rule]", "Green"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+     RowBox[{"PlotStyle", "->", "Green"}]}], "]"}]}], 
+  ";"}], "", 
  RowBox[{"Show", "[", 
   RowBox[{"dataPlot2SlitAvg", ",", "dataPlot2Slit", ",", "fita", ",", 
-   RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-   RowBox[{"AxesLabel", "\[Rule]", 
+   RowBox[{"PlotRange", "->", "All"}], ",", 
+   RowBox[{"AxesLabel", "->", 
     RowBox[{"{", 
      RowBox[{
      "\"\<Micrometer Setting (mm)\>\"", ",", "\"\<Photon Counts\>\""}], 
@@ -10733,7 +10732,7 @@ dw==
          Offset[{-1.5, 0}, {8., 1.5075914750000001`}]}]}}}, {}}, {{}, {
      {RGBColor[1, 0, 0], PointSize[0.01388888888888889], AbsoluteThickness[
       1.6], GeometricTransformationBox[InsetBox[
-        StyleBox["\<\"\[FilledCircle]\"\>",
+        StyleBox["\<\"●\"\>",
          StripOnInput->False,
          FontSize->8], {0., 0.}], CompressedData["
 1:eJyF1m9oVXUcx/Hjn+pma93U/pnVTXywBxJj68GMwoNbMmuM2xgmZnUazs21
@@ -11482,11 +11481,11 @@ Cell[BoxData[{
      RowBox[{
       RowBox[{"{", 
        RowBox[{
-        RowBox[{"Flatten", "[", "dataDouble", "]"}], "\[LeftDoubleBracket]", 
-        RowBox[{"u", "+", "1"}], "\[RightDoubleBracket]"}], "}"}], ",", 
+        RowBox[{"Flatten", "[", "dataDouble", "]"}], "[[", 
+        RowBox[{"u", "+", "1"}], "]]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "0", ",", "80", ",", "1"}], "}"}]}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataTableNearSlit", "=", 
    RowBox[{"Flatten", "[", 
@@ -11494,11 +11493,11 @@ Cell[BoxData[{
      RowBox[{
       RowBox[{"{", 
        RowBox[{
-        RowBox[{"Flatten", "[", "dataNear", "]"}], "\[LeftDoubleBracket]", 
-        RowBox[{"u", "+", "1"}], "\[RightDoubleBracket]"}], "}"}], ",", 
+        RowBox[{"Flatten", "[", "dataNear", "]"}], "[[", 
+        RowBox[{"u", "+", "1"}], "]]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "0", ",", "80", ",", "1"}], "}"}]}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"dataTableFarSlit", "=", 
    RowBox[{"Flatten", "[", 
@@ -11506,8 +11505,8 @@ Cell[BoxData[{
      RowBox[{
       RowBox[{"{", 
        RowBox[{
-        RowBox[{"Flatten", "[", "dataFar", "]"}], "\[LeftDoubleBracket]", 
-        RowBox[{"u", "+", "1"}], "\[RightDoubleBracket]"}], "}"}], ",", 
+        RowBox[{"Flatten", "[", "dataFar", "]"}], "[[", 
+        RowBox[{"u", "+", "1"}], "]]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "0", ",", "80", ",", "1"}], "}"}]}], "]"}], "]"}]}], 
   ";"}]}], "Input",
@@ -11532,7 +11531,7 @@ Cell[BoxData[{
         FractionBox["u", "10"], "]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "0", ",", "80", ",", "1"}], "}"}]}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"distNearSlitFres", "=", 
    RowBox[{"Flatten", "[", 
@@ -11543,7 +11542,7 @@ Cell[BoxData[{
         FractionBox["u", "10"], "]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "0", ",", "80", ",", "1"}], "}"}]}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"distFarSlitFres", "=", 
    RowBox[{"Flatten", "[", 
@@ -11574,7 +11573,7 @@ Cell[BoxData[{
         FractionBox["u", "10"], "]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "0", ",", "80", ",", "1"}], "}"}]}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"distNearSlitFraun", "=", 
    RowBox[{"Flatten", "[", 
@@ -11585,7 +11584,7 @@ Cell[BoxData[{
         FractionBox["u", "10"], "]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "0", ",", "80", ",", "1"}], "}"}]}], "]"}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{"distFarSlitFraun", "=", 
    RowBox[{"Flatten", "[", 
@@ -11609,7 +11608,7 @@ Cell[BoxData[{
    RowBox[{"pearsonTest", "[", 
     RowBox[{"obs_List", ",", "exp_List"}], "]"}], "/;", 
    RowBox[{
-    RowBox[{"Length", "[", "obs", "]"}], "\[Equal]", 
+    RowBox[{"Length", "[", "obs", "]"}], "==", 
     RowBox[{"Length", "[", "exp", "]"}]}]}], ":=", 
   RowBox[{"Block", "[", 
    RowBox[{
@@ -11622,7 +11621,7 @@ Cell[BoxData[{
          RowBox[{
           RowBox[{"(", 
            RowBox[{"obs", "-", "exp"}], ")"}], "^", "2"}], "/", "exp"}], 
-        "]"}], "//", "N"}]}], ";", "\[IndentingNewLine]", 
+        "]"}], "//", "N"}]}], ";", "", 
      RowBox[{"{", 
       RowBox[{
        RowBox[{"Rule", "[", 
@@ -11634,7 +11633,7 @@ Cell[BoxData[{
            RowBox[{"ChiSquareDistribution", "[", 
             RowBox[{
              RowBox[{"Length", "[", "exp", "]"}], "-", "1"}], "]"}], ",", 
-           "t"}], "]"}]}], "]"}]}], "}"}]}]}], "]"}]}], "\[IndentingNewLine]", 
+           "t"}], "]"}]}], "]"}]}], "}"}]}]}], "]"}]}], "", 
  RowBox[{
   RowBox[{
    RowBox[{"chisq", "[", 
@@ -11657,7 +11656,7 @@ Cell[BoxData[{
         RowBox[{"u", ",", "0", ",", 
          RowBox[{"Length", "[", "data", "]"}], ",", "1"}], "}"}]}], "]"}], 
      "]"}], 
-    RowBox[{"Mean", "[", "data", "]"}]]}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{"Mean", "[", "data", "]"}]]}], ";"}], "", 
  RowBox[{
   RowBox[{
    RowBox[{"chicheck", "[", 
@@ -11677,7 +11676,7 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{"u", ",", "0", ",", 
        RowBox[{"Length", "[", "data", "]"}], ",", "1"}], "}"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+  ";"}], "", 
  RowBox[{
   RowBox[{
    RowBox[{"datcheck", "[", 
@@ -11710,8 +11709,8 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
-   RowBox[{"\<\"chisqr\"\>", "\[Rule]", "141804.99070634323`"}], ",", 
-   RowBox[{"\<\"p-val\"\>", "\[Rule]", 
+   RowBox[{"\<\"chisqr\"\>", "->", "141804.99070634323`"}], ",", 
+   RowBox[{"\<\"p-val\"\>", "->", 
     "2.0135763393078326356863434515456390495727`15.954589770191005*^-30650"}]}\
 ], "}"}]], "Output",
  CellChangeTimes->{3.6254468193008413`*^9, 3.625446853499187*^9, 
@@ -11726,19 +11725,19 @@ Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{"chisq", "[", 
   RowBox[{"dataTable2Slit", ",", "dist2SlitFres"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTableFarSlit", ",", "distFarSlitFres"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTableNearSlit", ",", "distNearSlitFres"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTable2Slit", ",", "dist2SlitFraun"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTableFarSlit", ",", "distFarSlitFraun"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTableNearSlit", ",", "distNearSlitFraun"}], "]"}]}], "Input",
  CellChangeTimes->{{3.625449475427887*^9, 3.625449491614332*^9}, {
@@ -11852,11 +11851,11 @@ Cell[BoxData[{
      RowBox[{
       RowBox[{"{", 
        RowBox[{
-        RowBox[{"Flatten", "[", "dataDouble", "]"}], "\[LeftDoubleBracket]", 
-        RowBox[{"u", "+", "1"}], "\[RightDoubleBracket]"}], "}"}], ",", 
+        RowBox[{"Flatten", "[", "dataDouble", "]"}], "[[", 
+        RowBox[{"u", "+", "1"}], "]]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "20", ",", "60", ",", "1"}], "}"}]}], "]"}], "]"}]}],
-   ";"}], "\[IndentingNewLine]", 
+   ";"}], "", 
  RowBox[{
   RowBox[{"dataTableNearSlitPart", "=", 
    RowBox[{"Flatten", "[", 
@@ -11864,11 +11863,11 @@ Cell[BoxData[{
      RowBox[{
       RowBox[{"{", 
        RowBox[{
-        RowBox[{"Flatten", "[", "dataNear", "]"}], "\[LeftDoubleBracket]", 
-        RowBox[{"u", "+", "1"}], "\[RightDoubleBracket]"}], "}"}], ",", 
+        RowBox[{"Flatten", "[", "dataNear", "]"}], "[[", 
+        RowBox[{"u", "+", "1"}], "]]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "20", ",", "60", ",", "1"}], "}"}]}], "]"}], "]"}]}],
-   ";"}], "\[IndentingNewLine]", 
+   ";"}], "", 
  RowBox[{
   RowBox[{"dataTableFarSlitPart", "=", 
    RowBox[{"Flatten", "[", 
@@ -11876,8 +11875,8 @@ Cell[BoxData[{
      RowBox[{
       RowBox[{"{", 
        RowBox[{
-        RowBox[{"Flatten", "[", "dataFar", "]"}], "\[LeftDoubleBracket]", 
-        RowBox[{"u", "+", "1"}], "\[RightDoubleBracket]"}], "}"}], ",", 
+        RowBox[{"Flatten", "[", "dataFar", "]"}], "[[", 
+        RowBox[{"u", "+", "1"}], "]]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "20", ",", "60", ",", "1"}], "}"}]}], "]"}], "]"}]}],
    ";"}]}], "Input",
@@ -11902,7 +11901,7 @@ Cell[BoxData[{
         FractionBox["u", "10"], "]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "20", ",", "60", ",", "1"}], "}"}]}], "]"}], "]"}]}],
-   ";"}], "\[IndentingNewLine]", 
+   ";"}], "", 
  RowBox[{
   RowBox[{"distNearSlitFresPart", "=", 
    RowBox[{"Flatten", "[", 
@@ -11913,7 +11912,7 @@ Cell[BoxData[{
         FractionBox["u", "10"], "]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "20", ",", "60", ",", "1"}], "}"}]}], "]"}], "]"}]}],
-   ";"}], "\[IndentingNewLine]", 
+   ";"}], "", 
  RowBox[{
   RowBox[{"distFarSlitFresPart", "=", 
    RowBox[{"Flatten", "[", 
@@ -11945,7 +11944,7 @@ Cell[BoxData[{
         FractionBox["u", "10"], "]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "20", ",", "60", ",", "1"}], "}"}]}], "]"}], "]"}]}],
-   ";"}], "\[IndentingNewLine]", 
+   ";"}], "", 
  RowBox[{
   RowBox[{"distNearSlitFraunPart", "=", 
    RowBox[{"Flatten", "[", 
@@ -11956,7 +11955,7 @@ Cell[BoxData[{
         FractionBox["u", "10"], "]"}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"u", ",", "20", ",", "60", ",", "1"}], "}"}]}], "]"}], "]"}]}],
-   ";"}], "\[IndentingNewLine]", 
+   ";"}], "", 
  RowBox[{
   RowBox[{"distFarSlitFraunPart", "=", 
    RowBox[{"Flatten", "[", 
@@ -11979,19 +11978,19 @@ Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{"chisq", "[", 
   RowBox[{"dataTable2SlitPart", ",", "dist2SlitFresPart"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTableFarSlitPart", ",", "distFarSlitFresPart"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTableNearSlitPart", ",", "distNearSlitFresPart"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTable2SlitPart", ",", "dist2SlitFraunPart"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTableFarSlitPart", ",", "distFarSlitFraunPart"}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{"chisq", "[", 
   RowBox[{"dataTableNearSlitPart", ",", "distNearSlitFraunPart"}], 
   "]"}]}], "Input",
