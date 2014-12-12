@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 DEC 2014 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 DEC 2014 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -335,35 +335,41 @@ File: PCITdiscriminator.pdf Graphic file (type pdf)
 <use PCITdiscriminator.pdf>
 Package pdftex.def Info: PCITdiscriminator.pdf used on input line 71.
 (pdftex.def)             Requested size: 289.07999pt x 225.18484pt.
- [4 <./PCITdiscriminator.pdf>] [5] [6] [7]
-<double_slit_plot.pdf, id=252, 698.61pt x 373.395pt>
+ [4 <./PCITdiscriminator.pdf>] [5] [6]
+<double_slit_plot.pdf, id=248, 698.61pt x 373.395pt>
 File: double_slit_plot.pdf Graphic file (type pdf)
 
 <use double_slit_plot.pdf>
-Package pdftex.def Info: double_slit_plot.pdf used on input line 102.
+Package pdftex.def Info: double_slit_plot.pdf used on input line 101.
 (pdftex.def)             Requested size: 433.62pt x 231.76459pt.
- <far_slit_plot.pdf, id=253, 698.61pt x 373.395pt>
-File: far_slit_plot.pdf Graphic file (type pdf)
 
-<use far_slit_plot.pdf>
-Package pdftex.def Info: far_slit_plot.pdf used on input line 110.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<far_slit_plot.pdf, id=249, 698.61pt x 373.395pt>
+File: far_slit_plot.pdf Graphic file (type pdf)
+ <use far_slit_plot.pdf>
+Package pdftex.def Info: far_slit_plot.pdf used on input line 109.
 (pdftex.def)             Requested size: 216.81pt x 115.8823pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 110--111
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
-<near_slit_plot.pdf, id=254, 698.61pt x 373.395pt>
+<near_slit_plot.pdf, id=250, 698.61pt x 373.395pt>
 File: near_slit_plot.pdf Graphic file (type pdf)
  <use near_slit_plot.pdf>
-Package pdftex.def Info: near_slit_plot.pdf used on input line 114.
+Package pdftex.def Info: near_slit_plot.pdf used on input line 113.
 (pdftex.def)             Requested size: 216.81pt x 115.8823pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 114--115
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 113--114
  [][] 
  []
 
-[8 <./double_slit_plot.pdf> <./far_slit_plot.pdf
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7] [8 <./double_slit_plot.pdf> <./far_slit_plot.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./far_slit_plot.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -371,38 +377,35 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./far_slit_plot.pdf): PDF inclusion:
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_plot.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->] [9] <far_slit_Fraunhofer_plot.pdf, id=322, 698.61pt x 373.395pt>
+>] <far_slit_Fraunhofer_plot.pdf, id=319, 698.61pt x 373.395pt>
 File: far_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use far_slit_Fraunhofer_plot.pdf>
-Package pdftex.def Info: far_slit_Fraunhofer_plot.pdf used on input line 152.
+Package pdftex.def Info: far_slit_Fraunhofer_plot.pdf used on input line 151.
 (pdftex.def)             Requested size: 216.81pt x 115.8823pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 152--153
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 151--152
  [][] 
  []
 
-<near_slit_Fraunhofer_plot.pdf, id=323, 698.61pt x 373.395pt>
+<near_slit_Fraunhofer_plot.pdf, id=320, 698.61pt x 373.395pt>
 File: near_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use near_slit_Fraunhofer_plot.pdf>
-Package pdftex.def Info: near_slit_Fraunhofer_plot.pdf used on input line 156.
+Package pdftex.def Info: near_slit_Fraunhofer_plot.pdf used on input line 155.
 (pdftex.def)             Requested size: 216.81pt x 115.8823pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 156--157
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 155--156
  [][] 
  []
 
-<double_slit_Fraunhofer_plot.pdf, id=324, 698.61pt x 373.395pt>
+[9] <double_slit_Fraunhofer_plot.pdf, id=324, 698.61pt x 373.395pt>
 File: double_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use double_slit_Fraunhofer_plot.pdf>
-Package pdftex.def Info: double_slit_Fraunhofer_plot.pdf used on input line 164
+Package pdftex.def Info: double_slit_Fraunhofer_plot.pdf used on input line 163
 .
 (pdftex.def)             Requested size: 433.62pt x 231.76459pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -411,100 +414,97 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_Fraunhofer_plot.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
->] [11 <./double_slit_Fraunhofer_plot.pdf>]
-<Fresnel_diagram.png, id=395, 312.41719pt x 205.5178pt>
-File: Fresnel_diagram.png Graphic file (type png)
+> <./double_slit_Fraunhofer_plot.pdf
 
-<use Fresnel_diagram.png>
-Package pdftex.def Info: Fresnel_diagram.png used on input line 227.
-(pdftex.def)             Requested size: 289.07999pt x 190.16998pt.
+pdfTeX warning: /usr/texbin/pdflatex (file ./double_slit_Fraunhofer_plot.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>] [11] <fresnel_diagram.pdf, id=394, 363.00609pt x 230.83038pt>
+File: fresnel_diagram.pdf Graphic file (type pdf)
+
+<use fresnel_diagram.pdf>
+Package pdftex.def Info: fresnel_diagram.pdf used on input line 216.
+(pdftex.def)             Requested size: 289.07999pt x 183.82274pt.
+
+<double_slit_Fresnel_plot.png, id=395, 1275.76625pt x 782.925pt>
+File: double_slit_Fresnel_plot.png Graphic file (type png)
+
+<use double_slit_Fresnel_plot.png>
+Package pdftex.def Info: double_slit_Fresnel_plot.png used on input line 223.
+(pdftex.def)             Requested size: 433.62pt x 266.10735pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<double_slit_Fresnel_plot.pdf, id=397, 761.84625pt x 412.54124pt>
-File: double_slit_Fresnel_plot.pdf Graphic file (type pdf)
+<far_slit_Fresnel_plot.png, id=396, 951.555pt x 601.24625pt>
+File: far_slit_Fresnel_plot.png Graphic file (type png)
 
-<use double_slit_Fresnel_plot.pdf>
-Package pdftex.def Info: double_slit_Fresnel_plot.pdf used on input line 234.
-(pdftex.def)             Requested size: 433.62pt x 234.80473pt.
+<use far_slit_Fresnel_plot.png>
+Package pdftex.def Info: far_slit_Fresnel_plot.png used on input line 231.
+(pdftex.def)             Requested size: 216.81pt x 136.99014pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<far_slit_Fresnel_plot.pdf, id=398, 711.65875pt x 381.425pt>
-File: far_slit_Fresnel_plot.pdf Graphic file (type pdf)
-
-<use far_slit_Fresnel_plot.pdf>
-Package pdftex.def Info: far_slit_Fresnel_plot.pdf used on input line 242.
-(pdftex.def)             Requested size: 216.81pt x 116.19768pt.
-
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 242--243
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 231--232
  [][] 
  []
 
-<near_slit_Fresnel_plot.pdf, id=399, 711.65875pt x 381.425pt>
-File: near_slit_Fresnel_plot.pdf Graphic file (type pdf)
+<near_slit_Fresnel_plot.png, id=397, 930.47626pt x 588.1975pt>
+File: near_slit_Fresnel_plot.png Graphic file (type png)
 
-<use near_slit_Fresnel_plot.pdf>
-Package pdftex.def Info: near_slit_Fresnel_plot.pdf used on input line 246.
-(pdftex.def)             Requested size: 216.81pt x 116.19768pt.
+<use near_slit_Fresnel_plot.png>
+Package pdftex.def Info: near_slit_Fresnel_plot.png used on input line 235.
+(pdftex.def)             Requested size: 216.81pt x 137.05067pt.
 
-Overfull \hbox (6.21143pt too wide) in paragraph at lines 246--247
+Overfull \hbox (6.21143pt too wide) in paragraph at lines 235--236
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 259.
+[12 <./fresnel_diagram.pdf>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 248.
 
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 259.
- [13 <./Fresnel_diagram.png>] [14 <./double_slit_Fresnel_plot.pdf> <./far_slit_
-Fresnel_plot.pdf
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 248.
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./far_slit_Fresnel_plot.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
-> <./near_slit_Fresnel_plot.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./near_slit_Fresnel_plot.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
->] [15] [16]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./double_slit_Fresnel_plot.png> <./far_slit_Fresnel_plot.png> <./near_slit
+_Fresnel_plot.png>] [14] [15] [16]
 No file editedpaper.bbl.
-[17] [18] (./editedpaper.aux) ) 
+[17] (./editedpaper.aux) ) 
 Here is how much of TeX's memory you used:
- 4403 strings out of 493117
- 59673 string characters out of 6135433
- 141538 words of memory out of 5000000
- 7790 multiletter control sequences out of 15000+600000
+ 4402 strings out of 493117
+ 59663 string characters out of 6135433
+ 137538 words of memory out of 5000000
+ 7789 multiletter control sequences out of 15000+600000
  11844 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,30p,1681b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb>
-Output written on editedpaper.pdf (18 pages, 1037205 bytes).
+ 38i,9n,30p,1681b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+>
+Output written on editedpaper.pdf (17 pages, 1132566 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
+ 511 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

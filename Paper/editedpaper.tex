@@ -73,7 +73,6 @@ The apparatus comes with a long black box containing an adjustable light source 
 \label{PCITdiscriminator}
 \end{figure}
 
-\textcolor{blue}{this paragraph needs to be edited for clarity and accuracy. For example, what do you mean by the PMT settings? why is it a voltage? why is it such a high voltage?  If it is a voltage, why do you refer to an electrical current? Is the current caused in some way by the voltage. The short pulse from the PMT output is a voltage spike of varying height. The Discriminator converts these spikes into a constant height rectangular pulse if the spikes exceed a threshold value, and no pulse if they don't.  Please re-read the handouts about how the PMT works, what the applied voltages and output voltages represent, what the discriminator actually does to shape the pulse, and how the threshold serves as a go - no-go criteria.}
 Behind the detector slit was a photomultiplier tube (PMT).  A PMT utilizes the photoelectric effect to detect incoming particles. When photons hit the PMT, they release electrons from the metal. The PMT voltage, applied across the 10 plates of the device, accelerates the freed electrons until they impact the next plate.  This continues, with the number of electrons increasing at each step, until a detectable pulse of electrons reaches the end of the PMT.  The PMT voltage determines how much initial energy a particle needs to cause the cascade of electrons - slow-moving particles won't reach the next plate with enough energy to release electrons, and changing the PMT voltage changes that cut-off point.  The end of the PMT is connected across a resistor to ground - the voltage across this resistor is proportional to the current going through it, and the current depends on the pulse of electrons generated in the PMT.  In this way a PMT generates a voltage in response to the arrival of a photon.  Adjusting the PMT settings changed the sensitivity - a low setting missed lower-energy photons, but a higher setting generated more noise.  We optimized this setting (got the best signal-to-noise ratio) at 600V.  
 
 The short "pulse" from the PMT was output as a voltage spike, which we sent to the pulse counter interval timer (PCIT).  The PCIT had a "discriminator" which screened out all pulses below a threshold voltage (in order to remove low energy noise, at the expense of some lower-energy photons) - we optimized this setting at 0.6V. The PCIT kept count of how many voltage "pulses" above its threshold voltage it received from the PMT within a 10s, 1s, or 0.1s time interval. (See Figure ~\ref{PCITdiscriminator} for an oscilloscope image of the conversion from voltage spike to square wave.)  More photon detections within the time interval indicated a high light intensity at that position of the detector slit, and photon detection levels near the background indicated a dark fringe in the pattern. By optimizing the apparatus alignment and the PMT and PCIT settings, we obtained a signal to noise ratio of roughly 4000 at the brightest point in the pattern. 
@@ -192,27 +191,17 @@ Distance from diffracting slits to detector slit $D_2$     & 500 mm         & 50
 The Fresnel model does not use the approximation from the Fraunhofer model, as the Fresnel model does not assume that we are in the "far field" limit.  The Fresnel model works in the near-field regime, where the Fraunhofer model does not.  The Fresnel model is a more accurate model for all regimes.
 Therefore the equation is left in it's complex exponential form, and the distances between the slits and between slit and detector become very important.  ~\cite{wolfram} This equation is very difficult to solve, but a computing program such as Mathematica can run the calculation.  \textcolor{blue}{That is an impressive and non-obvious calculation, so you should include that program as an appendix.} 
 
-The factor of 42.044 is a proportionality constant we calculated to fit the Fresnel model to our data.  It is the ratio of the maximum resultant intensity from the Fresnel model to the maximum intensity value of our experiment.  The Fresnel model sum over paths approach gives us amplitudes (resulting from the integral), and we need to take their absolute square to find the intensities.
+The factor of 42.044 is a proportionality constant we calculated to fit the Fresnel model to our data.  It is the ratio of the maximum resultant intensity from the Fresnel model to the maximum intensity value of our experiment.  The Fresnel model sum over paths approach gives us amplitudes (resulting from the integral), and we need to take their absolute square to find the intensities.  The limits in the integral sum over the width of each slit in the double-slit, assuming that the distance between slits $d$ is measured from centers. 
+
 The single slit cases:
 
 \begin{equation}
-I_{near}=I_{0}*42.044*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{x_{0}+\frac{d}{2}}^{x_{0}+\frac{d}{2}+a} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
+I_{near}=I_{0}*42.044*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{x_{0}+\frac{d}{2}-\frac{a}{2}}^{x_{0}+\frac{d}{2}+\frac{a}{2}} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
 \end{equation}
 
 \begin{equation}
-I_{far}=I_{0}*42.044*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{x_{0}-\frac{d}{2}-a}^{x_{0}-\frac{d}{2}} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
+I_{far}=I_{0}*42.044*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{x_{0}-\frac{d}{2}-\frac{a}{2}}^{x_{0}-\frac{d}{2}+\frac{a}{2}} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
 \end{equation}
-
-\textcolor{red}{The limits appear to be written wrong on these equations, and there is certainly a formatting error in the 2nd equation.  I might be misunderstanding what you mean by near and far here, but for example,  shouldn't the first equation read: }
-
-\begin{equation*}
-I_{near}(z)=I_{0}*42.044*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{y = \left(x_{0}-\frac{d}{2}\right) - \frac{a}{2}}^{\left(x_{0}-\frac{d}{2}\right) + \frac{a}{2}} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
-\end{equation*}
-
-
-\begin{equation*}
-I_{near}=I_{0}*42.044*|e^{\frac{2 \pi i D_{1}}{\lambda}}*e^{\frac{2 \pi i D_{2}}{\lambda}}*\int_{\left(x_{0}+\frac{d}{2}\right) - \frac{a}{2}}^{\left(x_{0}+\frac{d}{2}\right) + \frac{a}{2}} \! e^{\frac{2 \pi i (x_{0}-y)^{2}}{D_{1} \lambda}}*e^{\frac{2 \pi i (y-z)^{2}}{D_{2} \lambda}} \, \mathrm{d}y |^{2}
-\end{equation*}
 
 The double slit case is simply the sum of the waveforms generated by each slit (after their absolute square has been taken to convert amplitudes into intensities): 
 \begin{equation}
@@ -224,26 +213,26 @@ The parameters have the same meanings as in the Fraunhofer model, with the addit
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=4in]{Fresnel_diagram.png}
-\caption{The set-up and variables used in the Fresnel Approximation. Note that the variable "Z" in the Fresnel formula is what we've been calling "X" in our other calculations - the position of the detector slit.\textcolor{red}{$d$ is the slit separation from slit center to slit center. As drawn, your }$d$ \textcolor{red}{is too short by} 2 x $a/2$. \textcolor{red}{You will probably need to offset the} $a$ \textcolor{red}{symbol and double-headed arrow that indicates the slit width in FIgure 6 to show d properly}}
+\includegraphics[width=4in]{fresnel_diagram.pdf}
+\caption{The set-up and variables used in the Fresnel Approximation. Note that the variable "Z" in the Fresnel formula is what we've been calling "X" in our other calculations - the position of the detector slit.}
 \label{Fresnel_diagram}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=6in]{double_slit_Fresnel_plot.pdf}
-\caption{Our data for the double slit pattern with Fresnel fit on top.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. \textcolor{blue}{It looks like there might be an error in the numerical values used in this calculation, because you have 9 peaks in your fit but only 7 peaks in your data. That is, the ratio }$d/{\lambda}$ \textcolor{blue}{appears to be 9/7 too large.}}
+\includegraphics[width=6in]{double_slit_Fresnel_plot.png}
+\caption{Our data for the double slit pattern with Fresnel fit on top.  Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
 \label{double_slit_Fresnel_plot}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \begin{minipage}[b]{0.45\linewidth}
-	\includegraphics[width=3in]{far_slit_Fresnel_plot.pdf}
+	\includegraphics[width=3in]{far_slit_Fresnel_plot.png}
 \end{minipage}
 \quad
 \begin{minipage}[b]{0.45\linewidth}
-	\includegraphics[width=3in]{near_slit_Fresnel_plot.pdf}
+	\includegraphics[width=3in]{near_slit_Fresnel_plot.png}
 \end{minipage}
 \caption{Our data for the single slit patterns with the Fresnel formula on top. The parameters we used are in Table ~\ref{parameters}. Raw data is the small red points, averages with standard error are the larger blue points with error bars. }
 \label{single_slits_Fresnel_plot}
