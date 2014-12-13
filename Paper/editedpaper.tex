@@ -286,4 +286,99 @@ We successfully performed the single photon interference experiment and observed
 \bibitem{iwo}The Photon Wave Function.  Iwo Bialynicki-Birula, 1996.  Coherence and Quantum Optics VII, Eds. J. H. Eberly, L. Mandel, and E. Wolf
 Plenum, New York 1996, p. 313
 \end{thebibliography}
+
+\section{Appendix}
+Below is the Mathematica code we used to calculate the Fresnel and Fraunhofer fits, and the Chi Square values.  
+
+We first used the ``Import'' function to import our raw data as csv files. It is important that each file only contain a list of x,y pairs or you will get an error when you try to make a plot. We used the compiled raw data from the three runs for the double slit, far slit, and near slit runs, as well as a list of average values and a list of standard deviations for each one. With these datasets we used ``ListPlot'' and ``ErrorListPlot'' to make plots of the raw data superimposed on the averages with error bars.  (See Figures ~\ref{double_slit_plot}, and ~\ref{single_slits_plot}).
+
+We then defined all the parameters which would be needed in the fits: $I0, a, d, \lambda, x0,x1, x2,  c, D1, D2$.
+
+We defined our fit formulas as follows:
+
+Fraunhofer double-slit:
+
+\begin{verbatim}
+g[x_] := I0*0.25*((Sin[Pi*a*Sin[(x - x0)/D2]/(lambda)]*(lambda/(Pi*a*Sin[(x - x0)/D2])))^2)*(Cos[Pi*d*Sin[(x - x0)/D2]/lambda]^2) + c;
+\end{verbatim}
+
+Fraunhofer far-slit:
+
+\begin{verbatim}
+h[x_] := I0*0.25*((Sin[Pi*a*Sin[(x - x1)/D2]/(lambda)]*(lambda/(Pi*a*Sin[(x - x1)/D2])))^2) + c;
+\end{verbatim}
+
+Fraunhofer near-slit:
+
+\begin{verbatim}
+k[x_] := I0*0.25*((Sin[Pi*a*Sin[(x - x2)/D2]/(lambda)]*(lambda/(Pi*a*Sin[(x - x2)/D2])))^2) + c;
+\end{verbatim}
+
+Fresnel near-slit:
+\begin{verbatim}
+slit1[z_] := 
+ E^((2*\[Pi]*I*D1)/lambda)*E^((2*\[Pi]*I*D2)/lambda)*
+  Integrate[
+   E^((\[Pi]*I*(x0 - y)^2)/(D1*lambda))*E^((\[Pi]*I*(y - z)^2)/(
+    D2*lambda)), {y, x0 + (d/2) - (a/2), x0 + (d/2) + (a/2)}]
+
+s1[z_] := 42.044*I0*Re[slit1[z]*Conjugate[slit1[z]]]
+\end{verbatim}
+
+Fresnel far-slit:
+
+\begin{verbatim}
+slit2[z_] := 
+ E^((2*\[Pi]*I*D1)/lambda)*E^((2*\[Pi]*I*D2)/lambda)*
+  Integrate[
+   E^((\[Pi]*I*(x0 - y)^2)/(D1*lambda))*E^((\[Pi]*I*(y - z)^2)/(
+    D2*lambda)), {y, x0 - (d/2) - (a/2), x0 - (d/2) + (a/2)}]
+
+s2[z_] := 42.044*I0*Re[slit2[z]*Conjugate[slit2[z]]]
+\end{verbatim}
+
+Fresnel double-slit:
+
+\begin{verbatim}
+slit[z_] := 
+ 42.044*I0*Re[(slit1[z] + slit2[z])*Conjugate[(slit1[z] + slit2[z])]]
+\end{verbatim}
+
+To plot our fits, raw data, and average values with error bars, we used the ``Plot'' function (for the fits), ``ListPlot'' function (for the raw data), and the ``ErrorListPlot'' function (for the averages with error bars) to make the plots, and the ``Show'' function to plot them on the same graph. For example:
+
+\begin{verbatim}
+Needs["ErrorBarPlots`"];
+data2Slit = Import["...4.45mmAll.csv"];
+data2SlitAvg = Import["...4.45mmAvg.csv"];
+data2SlitError = Import["...4.45mmError.csv"];
+%figure out how we got the error bars???
+dataPlot2SlitAvg = ErrorListPlot[data2SlitAvg, PlotRange -> {0, 4800}];
+dataPlot2Slit = ListPlot[data2Slit, PlotMarkers -> {Automatic, 8}, PlotStyle -> Red];
+fita = Plot[slit[z], {z, 0, 8}, PlotStyle -> Green];
+Show[dataPlot2SlitAvg, dataPlot2Slit, fita]
+\end{verbatim}
+
+To do the Reduced Chi Squared calculations, we needed the raw data with just the y-values. We made new .csv files and imported them.  It was important to use the ``Flatten" fuction enclosing the ``Import'' function to get rid of the outer brackets Mathematica automatically puts around lists and tables.  
+
+We also needed a list of values from the fit to compare to our data. We used the ``Table'' function enclosed again in ``Flatten'' to get a list of values from the functions above. 
+
+\begin{verbatim}
+dataNearFraun = Flatten[Table[k[x],{x,0,8,0.1}]];
+dataFarFraun = Flatten[Table[h[x],{x,0,8,0.1}]];
+dataDoubleFraun = Flatten[Table[g[x],{x,0,8,0.1}]];
+dataNearFres = Flatten[Table[s1[z], {z, 0, 8, .1}]];
+dataFarFres = Flatten[Table[s2[z], {z, 0, 8, .1}]];
+dataDoubleFres = Flatten[Table[slit[z], {z, 0, 8, .1}]];
+\end{verbatim}
+
+Our reduced chi square function is below:
+
+\begin{verbatim}
+redchisq[data_, dist_] := 
+ Abs[Total[((data - dist)^2)/dist]/Mean[data]]
+\end{verbatim}
+
+To get the reduced chi squared for a fit, just enter the name of the imported data file as the first argument, and the list of values generated from the corresponding fit as the second argument. Make sure they have the same number of values using the ``Length'' function, or you'll get an error. 
+
+
 \end{document}
