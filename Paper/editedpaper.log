@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.9)  12 DEC 2014 21:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.9)  12 DEC 2014 22:30
 entering extended mode
 **editedpaper.tex
 (C:\Users\Liza\Documents\GitHub\PhotonInterferenceLab\Paper\editedpaper.tex
@@ -240,7 +240,7 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 11.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 11.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 11.
 
-No file editedpaper.aux.
+(C:\Users\Liza\Documents\GitHub\PhotonInterferenceLab\Paper\editedpaper.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -253,6 +253,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
@@ -275,32 +276,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-Package natbib Warning: Citation `newton' on page 2 undefined on input line 46.
-
-
-
-Package natbib Warning: Citation `david' on page 2 undefined on input line 46.
-
-
-Package natbib Warning: Citation `modern' on page 2 undefined on input line 48.
-
-
-
-Package natbib Warning: Citation `teachspin' on page 2 undefined on input line 
-50.
-
-[2] <set-up.pdf, id=15, 775.55928pt x 332.65077pt>
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+<set-up.pdf, id=15, 775.55928pt x 332.65077pt>
 File: set-up.pdf Graphic file (type pdf)
  <use set-up.pdf>
 Package pdftex.def Info: set-up.pdf used on input line 63.
 (pdftex.def)             Requested size: 433.62pt x 185.98875pt.
-
-
-LaTeX Warning: Reference `set-up' on page 3 undefined on input line 67.
-
-[3 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/set-up.pdf>]
+ [3 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/set-up.pdf>]
 <PCITdiscriminator.pdf, id=224, 381.425pt x 297.11pt>
 File: PCITdiscriminator.pdf Graphic file (type pdf)
 
@@ -308,28 +290,8 @@ File: PCITdiscriminator.pdf Graphic file (type pdf)
 Package pdftex.def Info: PCITdiscriminator.pdf used on input line 71.
 (pdftex.def)             Requested size: 289.07999pt x 225.18484pt.
  [4 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/PCITdiscriminat
-or.pdf>]
-
-LaTeX Warning: Reference `PCITdiscriminator' on page 5 undefined on input line 
-78.
-
-[5]
-
-LaTeX Warning: Reference `set-up' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Reference `parameters' on page 6 undefined on input line 87.
-
-[6]
-
-LaTeX Warning: Reference `double_slit_plot' on page 7 undefined on input line 9
-7.
-
-
-LaTeX Warning: Reference `single_slits_plot' on page 7 undefined on input line 
-97.
-
-<double_slit_plot.pdf, id=247, 698.61pt x 373.395pt>
+or.pdf>] [5] [6]
+<double_slit_plot.pdf, id=246, 698.61pt x 373.395pt>
 File: double_slit_plot.pdf Graphic file (type pdf)
 
 <use double_slit_plot.pdf>
@@ -339,7 +301,7 @@ Package pdftex.def Info: double_slit_plot.pdf used on input line 101.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<far_slit_plot.pdf, id=248, 698.61pt x 373.395pt>
+<far_slit_plot.pdf, id=247, 698.61pt x 373.395pt>
 File: far_slit_plot.pdf Graphic file (type pdf)
  <use far_slit_plot.pdf>
 Package pdftex.def Info: far_slit_plot.pdf used on input line 109.
@@ -349,7 +311,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
-<near_slit_plot.pdf, id=249, 698.61pt x 373.395pt>
+<near_slit_plot.pdf, id=248, 698.61pt x 373.395pt>
 File: near_slit_plot.pdf Graphic file (type pdf)
  <use near_slit_plot.pdf>
 Package pdftex.def Info: near_slit_plot.pdf used on input line 113.
@@ -362,18 +324,9 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 113--114
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package natbib Warning: Citation `wolfram' on page 7 undefined on input line 12
-3.
-
-[7]
-
-Package natbib Warning: Citation `wolfram' on page 8 undefined on input line 12
-7.
-
-[8 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/double_slit_plot
-.pdf> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/far_slit_plot
-.pdf
+[7] [8 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/double_slit_
+plot.pdf> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/far_slit_
+plot.pdf
 
 pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
 terferenceLab/Paper/far_slit_plot.pdf): PDF inclusion: multiple pdfs with page 
@@ -384,11 +337,7 @@ f
 pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
 terferenceLab/Paper/near_slit_plot.pdf): PDF inclusion: multiple pdfs with page
  group included in a single page
->]
-
-LaTeX Warning: Reference `parameters' on page 9 undefined on input line 146.
-
-<far_slit_Fraunhofer_plot.pdf, id=318, 698.61pt x 373.395pt>
+>] [9] <far_slit_Fraunhofer_plot.pdf, id=320, 698.61pt x 373.395pt>
 File: far_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use far_slit_Fraunhofer_plot.pdf>
@@ -399,7 +348,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 151--152
  [][] 
  []
 
-<near_slit_Fraunhofer_plot.pdf, id=319, 698.61pt x 373.395pt>
+<near_slit_Fraunhofer_plot.pdf, id=321, 698.61pt x 373.395pt>
 File: near_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use near_slit_Fraunhofer_plot.pdf>
@@ -410,13 +359,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 155--156
  [][] 
  []
 
-
-LaTeX Warning: Reference `parameters' on page 9 undefined on input line 157.
-
-
-LaTeX Warning: Reference `parameters' on page 9 undefined on input line 157.
-
-[9] <double_slit_Fraunhofer_plot.pdf, id=323, 698.61pt x 373.395pt>
+<double_slit_Fraunhofer_plot.pdf, id=322, 698.61pt x 373.395pt>
 File: double_slit_Fraunhofer_plot.pdf Graphic file (type pdf)
 
 <use double_slit_Fraunhofer_plot.pdf>
@@ -426,10 +369,6 @@ Package pdftex.def Info: double_slit_Fraunhofer_plot.pdf used on input line 163
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `wolfram' on page 10 undefined on input line 1
-92.
 
 [10 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/far_slit_Fraunh
 ofer_plot.pdf> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/near
@@ -444,19 +383,14 @@ hofer_plot.pdf
 pdfTeX warning: miktex-pdftex.exe (file C:/Users/Liza/Documents/GitHub/PhotonIn
 terferenceLab/Paper/double_slit_Fraunhofer_plot.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
->] [11]
-
-LaTeX Warning: Reference `Fresnel_diagram' on page 12 undefined on input line 2
-12.
-
-<fresnel_diagram.pdf, id=392, 363.00609pt x 230.83038pt>
+>] [11] <fresnel_diagram.pdf, id=391, 363.00609pt x 230.83038pt>
 File: fresnel_diagram.pdf Graphic file (type pdf)
 
 <use fresnel_diagram.pdf>
 Package pdftex.def Info: fresnel_diagram.pdf used on input line 216.
 (pdftex.def)             Requested size: 289.07999pt x 183.82274pt.
 
-<double_slit_Fresnel_plot.png, id=393, 1275.76625pt x 782.925pt>
+<double_slit_Fresnel_plot.png, id=392, 1275.76625pt x 782.925pt>
 File: double_slit_Fresnel_plot.png Graphic file (type png)
 
 <use double_slit_Fresnel_plot.png>
@@ -466,7 +400,7 @@ Package pdftex.def Info: double_slit_Fresnel_plot.png used on input line 223.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<far_slit_Fresnel_plot.png, id=394, 951.555pt x 601.24625pt>
+<far_slit_Fresnel_plot.png, id=393, 951.555pt x 601.24625pt>
 File: far_slit_Fresnel_plot.png Graphic file (type png)
 
 <use far_slit_Fresnel_plot.png>
@@ -477,7 +411,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 231--232
  [][] 
  []
 
-<near_slit_Fresnel_plot.png, id=395, 930.47626pt x 588.1975pt>
+<near_slit_Fresnel_plot.png, id=394, 930.47626pt x 588.1975pt>
 File: near_slit_Fresnel_plot.png Graphic file (type png)
 
 <use near_slit_Fresnel_plot.png>
@@ -489,16 +423,7 @@ Overfull \hbox (6.21143pt too wide) in paragraph at lines 235--236
  []
 
 
-LaTeX Warning: Reference `parameters' on page 12 undefined on input line 237.
-
-
-LaTeX Warning: Reference `parameters' on page 12 undefined on input line 237.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `chi-square' on page 12 undefined on input line 241.
 
 [12 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/fresnel_diagram
 .pdf>]
@@ -508,39 +433,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [13 <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/double_slit_Fre
 snel_plot.png> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Paper/far_
 slit_Fresnel_plot.png> <C:/Users/Liza/Documents/GitHub/PhotonInterferenceLab/Pa
-per/near_slit_Fresnel_plot.png>]
-
-Package natbib Warning: Citation `teachspin' on page 14 undefined on input line
- 264.
-
-[14]
-
-Package natbib Warning: Citation `teachspin' on page 15 undefined on input line
- 270.
-
-[15]
-
-Package natbib Warning: Citation `bucky' on page 16 undefined on input line 272
-.
-
-
-Package natbib Warning: Citation `iwo' on page 16 undefined on input line 272.
-
-
-LaTeX Warning: Reference `LastBibItem' on page 16 undefined on input line 279.
-
-[16]
+per/near_slit_Fresnel_plot.png>] [14] [15] [16]
 No file editedpaper.bbl.
 
-LaTeX Warning: Reference `double_slit_plot' on page 17 undefined on input line 
-293.
-
-
-LaTeX Warning: Reference `single_slits_plot' on page 17 undefined on input line
- 293.
-
-
-Overfull \hbox (53.07864pt too wide) in paragraph at lines 295--296
+Overfull \hbox (53.07864pt too wide) in paragraph at lines 296--297
 []\OT1/cmr/m/n/12 We then de-fined all the pa-ram-e-ters which would be needed 
 in the fits: $\OML/cmm/m/it/12 I\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; a; d; ; x\
 OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; x\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; x\OT1/c
@@ -548,59 +444,25 @@ mr/m/n/12 2\OML/cmm/m/it/12 ; c; D\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; D\OT1/cmr
 /m/n/12 2$. 
  []
 
-
-Overfull \hbox (359.45041pt too wide) in paragraph at lines 303--303
-[]\OT1/cmtt/m/n/12 g[x_] := I0*0.25*((Sin[Pi*a*Sin[(x - x0)/D2]/(lambda)]*(lamb
-da/(Pi*a*Sin[(x - x0)/D2])))^2)*(Cos[Pi*d*Sin[(x - x0)/D2]/lambda]^2) + c;[] 
- []
-
-[17]
-Overfull \hbox (124.8003pt too wide) in paragraph at lines 309--309
-[]\OT1/cmtt/m/n/12 h[x_] := I0*0.25*((Sin[Pi*a*Sin[(x - x1)/D2]/(lambda)]*(lamb
-da/(Pi*a*Sin[(x - x1)/D2])))^2) + c;[] 
- []
-
-
-Overfull \hbox (124.8003pt too wide) in paragraph at lines 315--315
-[]\OT1/cmtt/m/n/12 k[x_] := I0*0.25*((Sin[Pi*a*Sin[(x - x2)/D2]/(lambda)]*(lamb
-da/(Pi*a*Sin[(x - x2)/D2])))^2) + c;[] 
- []
-
-[18]
-Overfull \hbox (56.87526pt too wide) in paragraph at lines 359--359
+[17] [18]
+Overfull \hbox (56.87526pt too wide) in paragraph at lines 358--358
 []\OT1/cmtt/m/n/12 dataPlot2Slit = ListPlot[data2Slit, PlotMarkers -> {Automati
 c, 8}, PlotStyle -> Red];[] 
  []
 
-
-Package natbib Warning: There were undefined citations.
-
 [19]
-(C:\Users\Liza\Documents\GitHub\PhotonInterferenceLab\Paper\editedpaper.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+(C:\Users\Liza\Documents\GitHub\PhotonInterferenceLab\Paper\editedpaper.aux) ) 
 Here is how much of TeX's memory you used:
  4035 strings out of 493921
- 52989 string characters out of 3144880
- 123232 words of memory out of 3000000
- 7287 multiletter control sequences out of 15000+200000
- 12629 words of font info for 49 fonts, out of 3000000 for 9000
+ 53111 string characters out of 3144880
+ 122541 words of memory out of 3000000
+ 7286 multiletter control sequences out of 15000+200000
+ 12013 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,9n,30p,1682b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
+ 36i,9n,30p,2415b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
+<
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program
@@ -615,9 +477,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on editedpaper.pdf (19 pages, 1194122 bytes).
+Output written on editedpaper.pdf (19 pages, 1184994 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
+ 517 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

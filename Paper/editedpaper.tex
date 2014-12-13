@@ -33,7 +33,7 @@
 
 \begin{abstract}
 
-It has been understood since the 19th century that light displays both wavelike and particle-like properties.  Light beams of differing phase interfere with each other and create observable light and dark fringes, as seen in Young's Double Slit experiment.  At the same time, light can be seen as a particle:  quanta of light, or photons, excite electrons to higher states of energy as seen in the photoelectric effect.  It is unlawful to attempt to classify light as a single entity.  We demonstrate the dual nature of light in the Single Photon Interference Experiment- a variation of Young's Double Slit Experiment.  We use a beam of light and a double slit apparatus with the confirmation that, within a certain probability, there is only a single photon in flight through the double slit device at any time.  Considering light to be a particle, we would expect to see two single bright fringes projected onto a screen.  However, even in the case of a single photon in flight at once, we still see dark and light interference fringes.  In this paper, we discuss the revolutionary implications of this result as well as how we might model these interference patterns.  We fit the Fresnel and Fraunhofer models of interference to our data and discuss the advantages and disadvantages of each.  We find that the Fraunhofer model is a better fit for our data, which makes sense as we were in the Fraunhofer regime, with a long box, long wavelength light source, and a thin slit.
+It has been understood since the 19th century that light displays both wavelike and particle-like properties.  Light beams of differing phase interfere with each other and create observable light and dark fringes, as seen in Young's Double Slit experiment.  At the same time, light can be seen as a particle:  quanta of light, or photons, excite electrons to higher states of energy as seen in the photoelectric effect.  It is unlawful to attempt to classify light as a single entity.  We demonstrate the dual nature of light in the Single Photon Interference Experiment- a variation of Young's Double Slit Experiment.  We use a beam of light and a double slit apparatus with the confirmation that, within a certain probability, there is only a single photon in flight through the double slit device at any time.  Considering light to be a particle, we would expect to see two single bright fringes projected onto a screen.  However, even in the case of a single photon in flight at once, we still see dark and light interference fringes.  In this paper, we discuss the revolutionary implications of this result as well as how we might model these interference patterns.  We fit the Fresnel and Fraunhofer models of interference to our data and discuss the advantages and disadvantages of each.  We find that each fit models certain aspects of our data better than the other. The Fresnel model better predicts overall shape and behavior near the bottom and the edges of the plots.  The Fraunhofer model better predicts the height, width, and spacing of the peaks. Together they fit our data very well, given our estimates of the experimental parameters. Our ten parameters and the values we gave them are listed in Table ~\ref{parameters}. The resulting reduced chi-square values for our fits are in Table ~\ref{chi-square}.  The Fraunhofer reduced chi-squared values were: double-slit 57.67, far slit 3.31, near slit 0.326.  The Fresnel reduced chi-squared values were: double-slit 5.99, far slit 3.45, near slit 4.45. None of our fits were ideal, but except for the Fraunhofer double-slit the reduced chi-square values remained under 6. From this we conclude that we could be more precise in applying our fits by integrating over those parameters which were not strictly constant but had a range.  The Fresnel model, at least, we discovered is very sensitive to these small changes.  
 
 \end{abstract}
 
@@ -120,7 +120,7 @@ The main result of our experiment was that we did indeed see single slit and dou
 
 Below, we discuss the two models and our fits, as well as the goodness of these fits and their implications for this experiment and the theory of light.
 
-We calculated fits for both the Fraunhofer Model and the Fresnel Model.  The two are applied in different regimes, determined by the Fresnel number: $F = \frac{a^2}{\lambda L}$.  $\lambda$ is the wavelength of the incident photons, a is the slit width, and l is the distance from diffracting slits to the detector slit.  When $F << 1$ the small slit is far from the detector screen, and the Fraunhofer model applies.  Nearer to the slit, where $F \approx 1$, the Fresnel model is more accurate. ~\cite{wolfram} The Fresnel number for our experiment is roughly $\frac{(0.1mm)^2}{555nm*500mm} \approx .036$.  Therefore the Fraunhofer model should be more appropriate, though neither is quite right - we would have to use a longer box, a longer wavelength light source, or thinner slits, to make the Fresnel number much smaller than $1$. 
+We calculated fits for both the Fraunhofer Model and the Fresnel Model.  The two are approximately applied in different regimes, determined by the Fresnel number: $F = \frac{a^2}{\lambda L}$.  $\lambda$ is the wavelength of the incident photons, a is the slit width, and l is the distance from diffracting slits to the detector slit.  When $F << 1$ the small slit is far from the detector screen, and the Fraunhofer model can be used as an approximation of the Fresnel model.  Nearer to the slit, where $F \approx 1$, the Fresnel model is more relevant to the behavior of the light. ~\cite{wolfram} The Fresnel number for our experiment is roughly $\frac{(0.1mm)^2}{555nm*500mm} \approx .036$.  Therefore the Fraunhofer model should be more appropriate, though neither is quite right - we would have to use a longer box, a longer wavelength light source, or thinner slits, to make the Fresnel number much smaller than $1$. 
 
 \subsection{The Fraunhofer Model}
 
@@ -188,8 +188,8 @@ Distance from diffracting slits to detector slit $D_2$     & 500 mm         & 50
 
 \subsection{The Fresnel Model}
 
-The Fresnel model does not use the approximation from the Fraunhofer model, as the Fresnel model does not assume that we are in the "far field" limit.  The Fresnel model works in the near-field regime, where the Fraunhofer model does not.  The Fresnel model is a more accurate model for all regimes.
-Therefore the equation is left in it's complex exponential form, and the distances between the slits and between slit and detector become very important.  ~\cite{wolfram} This equation is very difficult to solve, but a computing program such as Mathematica can run the calculation.  \textcolor{blue}{That is an impressive and non-obvious calculation, so you should include that program as an appendix.} 
+The Fresnel model does not use the approximation from the Fraunhofer model, as the Fresnel model does not assume that we are in the ``far field'' limit.  The Fresnel model works in the near-field regime, where the Fraunhofer model does not.  The Fresnel model is a more accurate model for all regimes.
+Therefore the equation is left in it's complex exponential form, and the distances between the slits and between slit and detector become very important.  ~\cite{wolfram} This equation is very difficult to solve, but a computing program such as Mathematica can run the calculation. 
 
 The factor of 42.044 is a proportionality constant we calculated to fit the Fresnel model to our data.  It is the ratio of the maximum resultant intensity from the Fresnel model to the maximum intensity value of our experiment.  The Fresnel model sum over paths approach gives us amplitudes (resulting from the integral), and we need to take their absolute square to find the intensities.  The limits in the integral sum over the width of each slit in the double-slit, assuming that the distance between slits $d$ is measured from centers. 
 
@@ -248,6 +248,7 @@ After fitting our data, we computed the reduced chi-square value for each fit (s
  \multirow{3}{*}{Fraunhofer} & Double Slit &57.67                                            \\
                             & Far Slit    & 3.31                                           \\
                             & Near Slit   & 0.326                                 \\
+\hline
 \multirow{3}{*}{Fresnel}    & Double Slit &          5.99                                    \\
                             & Far Slit    & 3.45                                           \\
                             & Near Slit   & 4.45                                      
@@ -259,13 +260,13 @@ After fitting our data, we computed the reduced chi-square value for each fit (s
 
 \section{Discussion}
 
-Our biggest question with this experiment was why, while we obtained clear data of the interference patterns, these results deviated from the theoretical models, sometimes by a great amount.  In particular the Fresnel model could not be made to fit our data very well, even with the best estimations of our parameters, but considering that we were far from the regime of the Fresnel model, we did not find this to be too strange. \textcolor{red}{I think you should first consider a simpler possible explanation for the discrepancy: It looks like there is an error in the numerical value of }$d/{\lambda}$ \textcolor{red}{used in this calculation, because you have 9 peaks in your fit but only 7 peaks in your data. The value used appears to be 9/7 too large. ANother possibility is that you mistakenly added \textit{a}  = 0.085 to \textit{d},  using \textit{d} = 0.491 instead of 0.406 (or made an equivalent error in the specification of the integral limits).  Please check that you used the same value for \textit{d}, \textit{a} and }$\lambda$ \textcolor{red}{in your Fresnel fit that you used in your Fraunhofer fit, and that you defined the ranges of the integrals properly for the Fresnel fit. }
+Our biggest question with this experiment was why, while we obtained clear data of the interference patterns, these results deviated from the theoretical models.  In particular the Fraunhofer model could not be made to fit our data very well at the edges, and the Fresnel got the general shape but the widths and heights of the peaks didn't quite match, even with the best estimations of our parameters. 
 
-In addition, we observed that the Fresnel model fit very well at the very edges of our pattern:  it was able to follow the subtle bumps and wiggles of that region.  The Fresnel model also replicated the "wavy offset" of our minima, while the Fraunhofer model had each minima come down to zero.  This offset was several times too large to be attributed to our background noise, so it is likely due to some characteristics of the Fresnel model which the Fraunhofer model approximated away.  The Fraunhofer model did better in the middle- around the more defined light and dark fringes.  The Fresnel model does not fit the inner light and dark fringes at all.  It fits the most central bright fringe, and then is offset from the rest of the bright fringes (the fit peaks are too narrow, and so there are more in the same space).  We are not exactly sure why this is so, but we have a few speculations.    The Fraunhofer model is designed to take advantage of the wave nature of light, and is not equipped to handle any 'edge effects' resulting due to the finite nature of the detector slit.  The Fresnel model, on the other hand, is a sum of the amplitudes over all paths from the source to the detector, and is more equipped to take into account imperfect paths and imperfections around the edges of the pattern.   However, we were far off from the Fresnel regime and close to the Fraunhofer regime, so that might explain how the Fraunhofer model fit very well our central interference pattern and Fresnel did not - overall, our graphs and reduced chi-square values agree better with the Fraunhofer model than with the Fresnel model.  \cite{teachspin}
+In addition, we observed that the Fresnel model fit very well at the very edges of our pattern:  it was able to follow the subtle bumps and wiggles of that region.  The Fresnel model also replicated the "wavy offset" of our minima, while the Fraunhofer model had each minima come down to zero.  This offset was several times too large to be attributed to our background noise, so it is likely due to some characteristics of the Fresnel model which the Fraunhofer model approximated away.  The Fraunhofer model did better in the middle- around the more defined light and dark fringes.  The Fresnel model does not fit the inner light and dark fringes very well.  Most of the peaks are too tall and a bit too wide in consequence. We are not exactly sure why this is so, but we have a few speculations.    The Fraunhofer model is designed to take advantage of the wave nature of light, and is not equipped to handle any 'edge effects' resulting due to the finite nature of the detector slit.  The Fresnel model, on the other hand, is a sum of the amplitudes over all paths from the source to the detector, and is more equipped to take into account imperfect paths and imperfections around the edges of the pattern.  So the Fresnel model gave a more accurate picture of the general shape of the graph, while the Fraunhofer model better predicted the height and spacing of the peaks, as it was designed to do.  \cite{teachspin}
 
-In order to gauge better the fits of the models to the experimental data, we would want to repeat this experiment using smaller incremental turns of the micrometer.  There are large gaps in our plotted fits that could be closed with tighter measurements.  We possibly would want to turn the micrometer by .05 mm instead of .1 mm increments.  We would also want to more precisely measure ourselves the parameters that went into our Fraunhofer and Fresnel fits:  slit width (a), slit separation (d), and the distances from the different slits to the detector slit ($D_{1} and D_{2}$), rather than relying on the uncertain reported values from the Two-Slit Interference, One Photon at a Time manual.  We could also gauge some error estimates for these values and propagate them, in our fits, so our fits would themselves have an error range.
+In order to better gauge the fits of the models to the experimental data, we would want to repeat this experiment using smaller incremental turns of the micrometer.  There are large gaps in our plotted fits that could be closed with tighter measurements.  We possibly would want to turn the micrometer by .05 mm instead of .1 mm increments.  We would also want to more precisely measure ourselves the parameters that went into our Fraunhofer and Fresnel fits:  slit width (a), slit separation (d), and the distances from the different slits to the detector slit ($D_{1} and D_{2}$), rather than relying on the uncertain reported values from the Two-Slit Interference, One Photon at a Time manual.  We could also gauge some error estimates for these values and propagate them, in our fits, so our fits would themselves have an error range.  We could try to get a better idea of the range of wavelengths produced by the filtered light-bulb, and maybe integrate over those values.  We could also integrate over the width of the columnating source slit.  However, the computation time might be too prohibitive. 
 
-An interesting project would be to continue this experiment and made adjustments to bring the set-up closer to the Fraunhofer and Fresnel limits.  For Fraunhofer, we would want to repeat this experiment with thinner slit widths, larger wavelength photons, and a longer box.  For Fresnel, we would want to repeat this experiment with larger slits, shorter wavelength photons, and a shorter box.  Taking into account practicality (maybe a 50 meter box is not going to be possible!), we could adjust the Fresnel number in both cases to ensure we are in the correct regime for our data to resemble the Fraunhofer or Fresnel model.  It would be exciting to confirm the Fraunhofer and/or Fresnel model, and probe the limits of these models further.
+An interesting project would be to continue this experiment and made adjustments to bring the set-up closer to the Fraunhofer and Fresnel limits.  For Fraunhofer, we would want to repeat this experiment with thinner slit widths, larger wavelength photons, and a longer box.  For Fresnel, we would want to repeat this experiment with larger slits, shorter wavelength photons, and a shorter box.  Taking into account practicality, we could adjust the Fresnel number in both cases to ensure we are in the correct regime for our data to resemble the Fraunhofer or Fresnel model.  It would be exciting to confirm the Fraunhofer and/or Fresnel model, and probe the limits of these models further.
 
 Regarding the quantum mechanical theory of this experiment, we did indeed observe single photon interference.  If a single photon was moving through a two-slit apparatus at any one time, how did the interference happen?  It seems like the photon somehow 'knew' about the two slits and managed to self-interfere (a bit of an obfuscating idea!).  It is certainly unfair to continue to think of the photon as a classical particle or classical wave propagating through space.  Perhaps it is better to think of a sort of quantum amplitude propagating through space- an amplitude whose absolute square would give information on where and when one is likely to observe the photon interaction event.  The picture by which we observe the photon events are the double slit interference patterns which depict favored and not-so-favored photon detection spots (according to the propagating quantum amplitude) as light and dark interference fringes, respectfully.  \cite{teachspin}
 
@@ -273,7 +274,7 @@ The double slit experiment may be rather old, but it is certainly still relevant
 
 \section{Conclusion}
 
-We successfully performed the single photon interference experiment and observed the expected single-slit diffraction patterns and double-slit interference patterns predicted by theory.  We fit our resulting data to the Fresnel and Fraunhofer models and found that the Fraunhofer model was a better fit for our data (it generated far lower reduced chi-square values).  This makes sense as we were in the Fraunhofer regime (thin slit width and long box).  We explored the quantum mechanical implications of single photon interference and discussed quantum electrodynamics, a theory developed to apply quantum mechanics to the electromagnetic field and better physically and mathematically understand the mysterious nature of the photon.
+We successfully performed the single photon interference experiment and observed the expected single-slit diffraction patterns and double-slit interference patterns predicted by theory.  We fit our resulting data to the Fresnel and Fraunhofer models and found that the both models fit different aspects of the data.  The reduced chi-square values for the Fresnel model were more consistent than those for the Fraunhofer model, and this reflects the goodness of fit seen in the plots.  The Fresnel model overall better predicts the shape of the data, and is more sensitive to the details of the apparatus.  The Fraunhofer predicts what it was designed to predict - the light and dark fringe height, width, and spacing, treating light as a wave and the set-up as ideal.  We explored the quantum mechanical implications of single photon interference and discussed quantum electrodynamics, a theory developed to apply quantum mechanics to the electromagnetic field and better physically and mathematically understand the mysterious nature of the photon.
 
 
 \begin{thebibliography}{3}
@@ -297,21 +298,22 @@ We then defined all the parameters which would be needed in the fits: $I0, a, d,
 We defined our fit formulas as follows:
 
 Fraunhofer double-slit:
-
 \begin{verbatim}
-g[x_] := I0*0.25*((Sin[Pi*a*Sin[(x - x0)/D2]/(lambda)]*(lambda/(Pi*a*Sin[(x - x0)/D2])))^2)*(Cos[Pi*d*Sin[(x - x0)/D2]/lambda]^2) + c;
+g[x_] := I0*0.25*((Sin[
+	Pi*a*Sin[(x - x0)/D2]/(lambda)]*(lambda/(Pi*a*Sin[(x - x0)/D2])))^2)*(Cos[
+		Pi*d*Sin[(x - x0)/D2]/lambda]^2) + c;
 \end{verbatim}
 
 Fraunhofer far-slit:
-
 \begin{verbatim}
-h[x_] := I0*0.25*((Sin[Pi*a*Sin[(x - x1)/D2]/(lambda)]*(lambda/(Pi*a*Sin[(x - x1)/D2])))^2) + c;
+h[x_] := I0*0.25*((Sin[
+	Pi*a*Sin[(x - x1)/D2]/(lambda)]*(lambda/(Pi*a*Sin[(x - x1)/D2])))^2) + c;
 \end{verbatim}
 
 Fraunhofer near-slit:
-
 \begin{verbatim}
-k[x_] := I0*0.25*((Sin[Pi*a*Sin[(x - x2)/D2]/(lambda)]*(lambda/(Pi*a*Sin[(x - x2)/D2])))^2) + c;
+k[x_] := I0*0.25*((Sin[
+Pi*a*Sin[(x - x2)/D2]/(lambda)]*(lambda/(Pi*a*Sin[(x - x2)/D2])))^2) + c;
 \end{verbatim}
 
 Fresnel near-slit:
@@ -326,7 +328,6 @@ s1[z_] := 42.044*I0*Re[slit1[z]*Conjugate[slit1[z]]]
 \end{verbatim}
 
 Fresnel far-slit:
-
 \begin{verbatim}
 slit2[z_] := 
  E^((2*\[Pi]*I*D1)/lambda)*E^((2*\[Pi]*I*D2)/lambda)*
@@ -338,21 +339,19 @@ s2[z_] := 42.044*I0*Re[slit2[z]*Conjugate[slit2[z]]]
 \end{verbatim}
 
 Fresnel double-slit:
-
 \begin{verbatim}
 slit[z_] := 
  42.044*I0*Re[(slit1[z] + slit2[z])*Conjugate[(slit1[z] + slit2[z])]]
 \end{verbatim}
 
 To plot our fits, raw data, and average values with error bars, we used the ``Plot'' function (for the fits), ``ListPlot'' function (for the raw data), and the ``ErrorListPlot'' function (for the averages with error bars) to make the plots, and the ``Show'' function to plot them on the same graph. For example:
-
 \begin{verbatim}
 Needs["ErrorBarPlots`"];
 data2Slit = Import["...4.45mmAll.csv"];
 data2SlitAvg = Import["...4.45mmAvg.csv"];
 data2SlitError = Import["...4.45mmError.csv"];
-%figure out how we got the error bars???
-dataPlot2SlitAvg = ErrorListPlot[data2SlitAvg, PlotRange -> {0, 4800}];
+dataPlot2SlitAvg = ErrorListPlot[Table[
+	{data2SlitAvg[[i]],data2SlitError[[i]]},{i,1,81}], PlotRange -> {0, 4800}];
 dataPlot2Slit = ListPlot[data2Slit, PlotMarkers -> {Automatic, 8}, PlotStyle -> Red];
 fita = Plot[slit[z], {z, 0, 8}, PlotStyle -> Green];
 Show[dataPlot2SlitAvg, dataPlot2Slit, fita]
@@ -361,7 +360,6 @@ Show[dataPlot2SlitAvg, dataPlot2Slit, fita]
 To do the Reduced Chi Squared calculations, we needed the raw data with just the y-values. We made new .csv files and imported them.  It was important to use the ``Flatten" fuction enclosing the ``Import'' function to get rid of the outer brackets Mathematica automatically puts around lists and tables.  
 
 We also needed a list of values from the fit to compare to our data. We used the ``Table'' function enclosed again in ``Flatten'' to get a list of values from the functions above. 
-
 \begin{verbatim}
 dataNearFraun = Flatten[Table[k[x],{x,0,8,0.1}]];
 dataFarFraun = Flatten[Table[h[x],{x,0,8,0.1}]];
@@ -372,7 +370,6 @@ dataDoubleFres = Flatten[Table[slit[z], {z, 0, 8, .1}]];
 \end{verbatim}
 
 Our reduced chi square function is below:
-
 \begin{verbatim}
 redchisq[data_, dist_] := 
  Abs[Total[((data - dist)^2)/dist]/Mean[data]]
